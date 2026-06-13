@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "夏威夷英语口语听力练习",
+    "version": "1.0",
+    "tripDate": "2026-07-04",
+    "note": "P1 优先场景：机场 + 达美商务舱 + 餐厅/小费/购物。所有句子可逐句循环、A-B循环、变速、收藏复习。"
+  },
+  "scenarios": [
+    {
+      "id": "checkin",
+      "icon": "🧳",
+      "title": "值机 / 托运行李",
+      "subtitle": "Delta Check-in & Baggage",
+      "category": "机场",
+      "intro": "达美商务舱走 Sky Priority 通道，柜台办登机牌、托运行李、要轮椅协助。",
+      "lines": [
+        { "id": "checkin-1", "speaker": "staff", "en": "Good morning! May I see your passport and where are you flying today?", "zh": "早上好！能看一下您的护照吗？今天飞往哪里？", "tip": "passport 读 /ˈpæs.pɔːrt/，'flying today' 连读成 flyin' today。", "vocab": [{ "w": "passport", "zh": "护照" }, { "w": "flying to", "zh": "飞往" }] },
+        { "id": "checkin-2", "speaker": "you", "en": "Good morning. We're flying to Honolulu. Here are three passports.", "zh": "早上好。我们飞檀香山。这是三本护照。", "tip": "Honolulu 读 /ˌhɑː.nəˈluː.luː/，重音在 lu。", "vocab": [{ "w": "Honolulu", "zh": "檀香山" }] },
+        { "id": "checkin-3", "speaker": "you", "en": "We're in business class. Could you check us in together, please?", "zh": "我们是商务舱，能帮我们一起办理吗？", "tip": "check in 是动词；check-in 是名词。", "vocab": [{ "w": "business class", "zh": "商务舱" }, { "w": "together", "zh": "一起" }] },
+        { "id": "checkin-4", "speaker": "you", "en": "Two of my companions are seniors. Could we have wheelchair assistance, please?", "zh": "我有两位同行的老人，能安排轮椅协助吗？", "tip": "wheelchair 读 /ˈwiːl.tʃer/；这句很重要，提前在柜台说。", "vocab": [{ "w": "senior", "zh": "老年人" }, { "w": "wheelchair assistance", "zh": "轮椅协助" }, { "w": "companion", "zh": "同伴" }] },
+        { "id": "checkin-5", "speaker": "staff", "en": "Of course. How many bags are you checking in today?", "zh": "当然。今天要托运几件行李？", "tip": "checking in 在这里指托运。", "vocab": [{ "w": "bag", "zh": "行李/包" }, { "w": "check in (bags)", "zh": "托运" }] },
+        { "id": "checkin-6", "speaker": "you", "en": "Three checked bags, and we each have one carry-on.", "zh": "三件托运行李，每人一件随身行李。", "tip": "carry-on 随身行李；checked bag 托运行李。", "vocab": [{ "w": "checked bag", "zh": "托运行李" }, { "w": "carry-on", "zh": "随身行李" }] },
+        { "id": "checkin-7", "speaker": "staff", "en": "Please put your bag on the scale. It's a little overweight — that'll be an extra fee.", "zh": "请把行李放上称。有点超重——需要额外收费。", "tip": "overweight 超重；extra fee 额外费用。听到这句就知道要么收费要么挪东西。", "vocab": [{ "w": "scale", "zh": "称重台" }, { "w": "overweight", "zh": "超重" }, { "w": "extra fee", "zh": "额外费用" }] },
+        { "id": "checkin-8", "speaker": "you", "en": "Could I move some items to another bag to avoid the fee?", "zh": "我能把一些东西挪到别的包里以免收费吗？", "tip": "avoid the fee 避免收费。", "vocab": [{ "w": "avoid", "zh": "避免" }] },
+        { "id": "checkin-9", "speaker": "staff", "en": "Here are your boarding passes. Your gate is B12 and boarding starts at 9:40.", "zh": "这是您的登机牌。登机口 B12，9:40 开始登机。", "tip": "gate 登机口；boarding 登机。记下 gate 号和时间。", "vocab": [{ "w": "boarding pass", "zh": "登机牌" }, { "w": "gate", "zh": "登机口" }, { "w": "boarding", "zh": "登机" }] },
+        { "id": "checkin-10", "speaker": "you", "en": "Thank you. Where is the Sky Priority security lane?", "zh": "谢谢。Sky Priority 安检通道在哪里？", "tip": "security lane 安检通道。", "vocab": [{ "w": "Sky Priority", "zh": "达美优先通道" }, { "w": "security lane", "zh": "安检通道" }] }
+      ]
+    },
+    {
+      "id": "security",
+      "icon": "🛂",
+      "title": "TSA 安检",
+      "subtitle": "Airport Security",
+      "category": "机场",
+      "intro": "美国安检（TSA）会让你脱外套、拿出电子设备、空袋子过机。老人可走免脱鞋通道。",
+      "lines": [
+        { "id": "security-1", "speaker": "staff", "en": "Boarding pass and ID, please.", "zh": "请出示登机牌和身份证件。", "tip": "ID 就是证件（护照）。", "vocab": [{ "w": "ID", "zh": "身份证件" }] },
+        { "id": "security-2", "speaker": "staff", "en": "Please take off your jacket and belt, and empty your pockets.", "zh": "请脱掉外套和腰带，掏空口袋。", "tip": "take off 脱下；empty your pockets 掏空口袋。", "vocab": [{ "w": "take off", "zh": "脱下" }, { "w": "belt", "zh": "腰带" }, { "w": "empty your pockets", "zh": "掏空口袋" }] },
+        { "id": "security-3", "speaker": "staff", "en": "Take out your laptop and any liquids, and put them in a separate bin.", "zh": "拿出笔记本电脑和液体，单独放一个篮子。", "tip": "liquids 液体；bin 是安检筐。", "vocab": [{ "w": "laptop", "zh": "笔记本电脑" }, { "w": "liquids", "zh": "液体" }, { "w": "bin", "zh": "安检筐" }] },
+        { "id": "security-4", "speaker": "you", "en": "My parents are elderly. Do they need to take off their shoes?", "zh": "我父母年纪大了，他们需要脱鞋吗？", "tip": "75岁以上通常可免脱鞋，但以现场为准。", "vocab": [{ "w": "elderly", "zh": "年长的" }, { "w": "shoes", "zh": "鞋" }] },
+        { "id": "security-5", "speaker": "staff", "en": "Step forward, raise your arms above your head, and hold still.", "zh": "往前站，双手举过头顶，保持不动。", "tip": "hold still 保持不动；过安检门时的指令。", "vocab": [{ "w": "step forward", "zh": "向前站" }, { "w": "raise your arms", "zh": "举起手臂" }, { "w": "hold still", "zh": "保持不动" }] },
+        { "id": "security-6", "speaker": "you", "en": "Sorry, I don't understand. Could you say that again slowly?", "zh": "抱歉，我没听懂，能慢点再说一遍吗？", "tip": "万能救场句！听不懂就用它，别紧张。", "vocab": [{ "w": "say that again", "zh": "再说一遍" }, { "w": "slowly", "zh": "慢一点" }] },
+        { "id": "security-7", "speaker": "staff", "en": "You're all set. Grab your belongings — have a good flight.", "zh": "您可以走了。拿好您的物品——祝旅途愉快。", "tip": "You're all set = 你弄好了/可以走了。belongings 个人物品。", "vocab": [{ "w": "all set", "zh": "搞定/可以了" }, { "w": "belongings", "zh": "个人物品" }] }
+      ]
+    },
+    {
+      "id": "boarding",
+      "icon": "📢",
+      "title": "登机口 & 广播听力",
+      "subtitle": "Gate & Announcements",
+      "category": "机场",
+      "intro": "非母语最难的是听机场广播。这组重点训练登机、改登机口、延误、最后召集的听力。",
+      "lines": [
+        { "id": "boarding-1", "speaker": "staff", "en": "We will begin pre-boarding for passengers needing special assistance and our Delta One customers.", "zh": "我们将优先为需要特殊协助的旅客和达美商务舱旅客办理登机。", "tip": "pre-boarding 优先登机；special assistance 特殊协助（轮椅老人先上）。", "vocab": [{ "w": "pre-boarding", "zh": "优先登机" }, { "w": "special assistance", "zh": "特殊协助" }, { "w": "Delta One", "zh": "达美商务舱" }] },
+        { "id": "boarding-2", "speaker": "staff", "en": "Attention passengers: the gate for flight 285 to Honolulu has changed to B22.", "zh": "旅客请注意：285航班飞檀香山的登机口已改为 B22。", "tip": "gate has changed 登机口已改！这种最容易漏听，注意航班号和新gate。", "vocab": [{ "w": "gate has changed", "zh": "登机口已更改" }, { "w": "flight", "zh": "航班" }] },
+        { "id": "boarding-3", "speaker": "staff", "en": "Flight 285 is now delayed. The new departure time is 11:15.", "zh": "285航班现已延误，新的起飞时间为 11:15。", "tip": "delayed 延误；departure time 起飞时间。", "vocab": [{ "w": "delayed", "zh": "延误" }, { "w": "departure time", "zh": "起飞时间" }] },
+        { "id": "boarding-4", "speaker": "staff", "en": "We are now boarding all rows. Please have your boarding pass ready.", "zh": "现在所有排次开始登机，请准备好登机牌。", "tip": "boarding all rows 全部登机；have ... ready 准备好。", "vocab": [{ "w": "rows", "zh": "排（座位）" }, { "w": "ready", "zh": "准备好" }] },
+        { "id": "boarding-5", "speaker": "staff", "en": "Final call for flight 285 to Honolulu. Please proceed to gate B22 immediately.", "zh": "285航班飞檀香山最后一次召集，请立即前往 B22 登机口。", "tip": "Final call 最后召集！听到要赶紧跑。proceed to 前往。", "vocab": [{ "w": "final call", "zh": "最后召集" }, { "w": "proceed to", "zh": "前往" }, { "w": "immediately", "zh": "立即" }] },
+        { "id": "boarding-6", "speaker": "you", "en": "Excuse me, is this the gate for the flight to Honolulu?", "zh": "请问，这是飞檀香山航班的登机口吗？", "tip": "不确定就问，避免上错机。", "vocab": [{ "w": "Excuse me", "zh": "打扰一下" }] },
+        { "id": "boarding-7", "speaker": "you", "en": "We requested wheelchair assistance. Could someone help us board first?", "zh": "我们申请了轮椅协助，能安排先登机吗？", "tip": "在登机口再确认一次轮椅服务。", "vocab": [{ "w": "requested", "zh": "申请了" }, { "w": "board", "zh": "登机" }] }
+      ]
+    },
+    {
+      "id": "delta-one",
+      "icon": "🛋️",
+      "title": "达美商务舱 Delta One",
+      "subtitle": "On Board — Business Class",
+      "category": "航班",
+      "intro": "上机后空乘会问饮料、餐食、铺床。这组覆盖商务舱常见互动和帮老人提需求。",
+      "lines": [
+        { "id": "delta-one-1", "speaker": "staff", "en": "Welcome aboard! May I take your jacket and offer you a welcome drink?", "zh": "欢迎登机！我能帮您挂外套并送上迎宾饮料吗？", "tip": "welcome aboard 欢迎登机；welcome drink 迎宾饮料（商务舱起飞前）。", "vocab": [{ "w": "welcome aboard", "zh": "欢迎登机" }, { "w": "welcome drink", "zh": "迎宾饮料" }] },
+        { "id": "delta-one-2", "speaker": "you", "en": "Thank you. Could we have two waters and one orange juice?", "zh": "谢谢。能给我们两杯水和一杯橙汁吗？", "tip": "still water 无气泡水；sparkling water 气泡水。", "vocab": [{ "w": "water", "zh": "水" }, { "w": "orange juice", "zh": "橙汁" }] },
+        { "id": "delta-one-3", "speaker": "staff", "en": "For your main course, would you like the grilled chicken or the seafood pasta?", "zh": "主菜您要烤鸡还是海鲜意面？", "tip": "main course 主菜；grilled 烤的。点餐二选一。", "vocab": [{ "w": "main course", "zh": "主菜" }, { "w": "grilled chicken", "zh": "烤鸡" }, { "w": "seafood pasta", "zh": "海鲜意面" }] },
+        { "id": "delta-one-4", "speaker": "you", "en": "One chicken, please. My mother doesn't eat seafood — is there a vegetarian option?", "zh": "一份鸡肉。我母亲不吃海鲜——有素食选择吗？", "tip": "vegetarian 素食；提前说明老人忌口。", "vocab": [{ "w": "vegetarian option", "zh": "素食选择" }, { "w": "doesn't eat", "zh": "不吃" }] },
+        { "id": "delta-one-5", "speaker": "you", "en": "My parents don't speak English. Could you point to the menu when you ask them?", "zh": "我父母不会英语，您问他们时能指一下菜单吗？", "tip": "point to 指向；很实用，让空乘配合用指的。", "vocab": [{ "w": "point to", "zh": "指向" }, { "w": "menu", "zh": "菜单" }] },
+        { "id": "delta-one-6", "speaker": "staff", "en": "Would you like me to make up your bed now, or after the meal?", "zh": "您想现在铺床，还是用餐后？", "tip": "make up the bed 铺床（商务舱平躺座椅）。", "vocab": [{ "w": "make up the bed", "zh": "铺床" }, { "w": "after the meal", "zh": "餐后" }] },
+        { "id": "delta-one-7", "speaker": "you", "en": "After the meal, please. Could we also get two blankets and a pillow?", "zh": "请餐后铺。能再给我们两条毯子和一个枕头吗？", "tip": "blanket 毯子；pillow 枕头。", "vocab": [{ "w": "blanket", "zh": "毯子" }, { "w": "pillow", "zh": "枕头" }] },
+        { "id": "delta-one-8", "speaker": "you", "en": "Excuse me, how do I recline the seat into a flat bed?", "zh": "请问，怎么把座椅调成平躺床？", "tip": "recline 调斜/放倒；flat bed 平躺床。", "vocab": [{ "w": "recline", "zh": "放倒座椅" }, { "w": "flat bed", "zh": "平躺床" }] },
+        { "id": "delta-one-9", "speaker": "you", "en": "Could you help my father? He's not sure how the seat controls work.", "zh": "能帮我父亲吗？他不太会用座椅控制。", "tip": "seat controls 座椅控制按钮。", "vocab": [{ "w": "seat controls", "zh": "座椅控制" }] },
+        { "id": "delta-one-10", "speaker": "you", "en": "What time will we land in Honolulu, local time?", "zh": "我们当地时间几点降落檀香山？", "tip": "local time 当地时间；问时差很有用。", "vocab": [{ "w": "land", "zh": "降落" }, { "w": "local time", "zh": "当地时间" }] },
+        { "id": "delta-one-11", "speaker": "staff", "en": "Please fasten your seatbelt; we're expecting some turbulence.", "zh": "请系好安全带，预计有颠簸。", "tip": "fasten your seatbelt 系安全带；turbulence 颠簸。", "vocab": [{ "w": "fasten your seatbelt", "zh": "系安全带" }, { "w": "turbulence", "zh": "颠簸" }] }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "icon": "🍽️",
+      "title": "餐厅点餐 & 过敏",
+      "subtitle": "Ordering at a Restaurant",
+      "category": "餐饮",
+      "intro": "美国餐厅多为带位入座、服务员点餐、最后桌上买单付小费。覆盖订位、点餐、忌口。",
+      "lines": [
+        { "id": "restaurant-1", "speaker": "staff", "en": "Hi! How many in your party?", "zh": "您好！请问几位？", "tip": "party 在这里指一桌人，不是派对。", "vocab": [{ "w": "party", "zh": "一行人/一桌" }] },
+        { "id": "restaurant-2", "speaker": "you", "en": "A table for three, please.", "zh": "三位，谢谢。", "tip": "a table for + 人数。", "vocab": [{ "w": "a table for three", "zh": "三人桌" }] },
+        { "id": "restaurant-3", "speaker": "staff", "en": "Can I start you off with something to drink?", "zh": "先来点喝的吗？", "tip": "start you off 先来点……（美国常先点饮料）。", "vocab": [{ "w": "something to drink", "zh": "喝的" }] },
+        { "id": "restaurant-4", "speaker": "you", "en": "Three waters, please. Could we have a few more minutes to look at the menu?", "zh": "三杯水。能再给我们几分钟看菜单吗？", "tip": "美国餐厅水免费，可直接要 tap water。", "vocab": [{ "w": "tap water", "zh": "自来水（免费）" }, { "w": "a few more minutes", "zh": "再几分钟" }] },
+        { "id": "restaurant-5", "speaker": "staff", "en": "Are you ready to order, or do you need a little more time?", "zh": "可以点餐了吗，还是再需要点时间？", "tip": "ready to order 可以点餐了。", "vocab": [{ "w": "ready to order", "zh": "准备点餐" }] },
+        { "id": "restaurant-6", "speaker": "you", "en": "I'll have the grilled fish. What do you recommend?", "zh": "我要烤鱼。你推荐什么？", "tip": "I'll have... 我要……；What do you recommend 你推荐什么。", "vocab": [{ "w": "I'll have", "zh": "我要点" }, { "w": "recommend", "zh": "推荐" }] },
+        { "id": "restaurant-7", "speaker": "you", "en": "One of us is allergic to peanuts. Does this dish contain nuts?", "zh": "我们其中一位对花生过敏。这道菜含坚果吗？", "tip": "allergic to 对……过敏；非常重要，老人过敏一定要说。", "vocab": [{ "w": "allergic to", "zh": "对……过敏" }, { "w": "peanuts", "zh": "花生" }, { "w": "contain", "zh": "含有" }] },
+        { "id": "restaurant-8", "speaker": "you", "en": "Could you make it less spicy, and no onions, please?", "zh": "能做得不那么辣，不要洋葱吗？", "tip": "less spicy 少辣；no onions 不要洋葱。", "vocab": [{ "w": "less spicy", "zh": "少辣" }, { "w": "no onions", "zh": "不要洋葱" }] },
+        { "id": "restaurant-9", "speaker": "staff", "en": "How would you like your steak cooked?", "zh": "您的牛排要几分熟？", "tip": "答案：medium rare 五分；medium 七分；well done 全熟。", "vocab": [{ "w": "medium rare", "zh": "五分熟" }, { "w": "well done", "zh": "全熟" }] },
+        { "id": "restaurant-10", "speaker": "you", "en": "Could we get the check, please? And can we pay by card?", "zh": "能买单吗？可以刷卡吗？", "tip": "the check = 账单（美式）；pay by card 刷卡。", "vocab": [{ "w": "the check", "zh": "账单" }, { "w": "pay by card", "zh": "刷卡" }] },
+        { "id": "restaurant-11", "speaker": "you", "en": "Could we get this to go? / Can I have a box, please?", "zh": "能打包吗？/ 能给个打包盒吗？", "tip": "to go 打包带走；box 打包盒。", "vocab": [{ "w": "to go", "zh": "打包带走" }, { "w": "box", "zh": "打包盒" }] }
+      ]
+    },
+    {
+      "id": "tipping",
+      "icon": "💵",
+      "title": "小费文化 & 付款",
+      "subtitle": "Tipping & Paying",
+      "category": "餐饮",
+      "intro": "美国小费是常识不是选项。餐厅18-20%，导游/客房/出租都要给。这组教你怎么算、怎么给。",
+      "lines": [
+        { "id": "tipping-1", "speaker": "tip", "en": "Restaurants: tip 18–20% of the total. Look at the bottom of the receipt for the tip line.", "zh": "餐厅：给总额的18-20%。在小票底部找 tip 那一栏填写。", "tip": "刷卡时小票上有 tip line，自己填金额再签名。", "vocab": [{ "w": "tip", "zh": "小费" }, { "w": "receipt", "zh": "小票/收据" }, { "w": "total", "zh": "总额" }] },
+        { "id": "tipping-2", "speaker": "you", "en": "Could you add 20% gratuity to the card, please?", "zh": "能在卡上加20%小费吗？", "tip": "gratuity = 小费（正式说法）。", "vocab": [{ "w": "gratuity", "zh": "小费" }, { "w": "add", "zh": "加上" }] },
+        { "id": "tipping-3", "speaker": "staff", "en": "Is this together or separate?", "zh": "一起结还是分开结？", "tip": "together 一起付；separate 分开付（AA）。", "vocab": [{ "w": "together", "zh": "一起付" }, { "w": "separate", "zh": "分开付" }] },
+        { "id": "tipping-4", "speaker": "tip", "en": "Hotel housekeeping: leave 2 to 5 dollars cash per night. Bellman: 1 to 2 dollars per bag.", "zh": "酒店客房清洁：每晚留2-5美元现金。行李员：每件1-2美元。", "tip": "现金小费要随身备一些1美元、5美元零钱。", "vocab": [{ "w": "housekeeping", "zh": "客房清洁" }, { "w": "bellman", "zh": "行李员" }, { "w": "per night", "zh": "每晚" }] },
+        { "id": "tipping-5", "speaker": "tip", "en": "Taxi or Uber: tip around 15%. Tour guides and snorkel staff: 10 to 20 dollars per person is kind.", "zh": "出租或Uber：约15%。导游和浮潜工作人员：每人10-20美元较合适。", "tip": "Uber 可在App里加小费。", "vocab": [{ "w": "tour guide", "zh": "导游" }, { "w": "per person", "zh": "每人" }] },
+        { "id": "tipping-6", "speaker": "you", "en": "Keep the change.", "zh": "不用找了（零钱留着）。", "tip": "付现金时把零钱当小费留下，超实用一句。", "vocab": [{ "w": "keep the change", "zh": "不用找零" }] },
+        { "id": "tipping-7", "speaker": "staff", "en": "Heads up — there's an 18% gratuity already added for large parties.", "zh": "提醒一下——大桌已自动加了18%小费。", "tip": "already added 已自动加；看到就别重复给。", "vocab": [{ "w": "already added", "zh": "已加上" }, { "w": "large parties", "zh": "大桌/多人" }] }
+      ]
+    },
+    {
+      "id": "shopping",
+      "icon": "🛍️",
+      "title": "购物 / 尺码 / 付款",
+      "subtitle": "Shopping & Payment",
+      "category": "购物",
+      "intro": "ABC Stores、超市、商场购物常用语。注意美国标价不含税，结账才加。",
+      "lines": [
+        { "id": "shopping-1", "speaker": "staff", "en": "Hi there! Let me know if you need any help.", "zh": "您好！需要帮忙随时叫我。", "tip": "美国店员常主动打招呼，回 \"Just looking, thanks\" 即可。", "vocab": [{ "w": "need any help", "zh": "需要帮助" }] },
+        { "id": "shopping-2", "speaker": "you", "en": "I'm just looking, thank you.", "zh": "我先随便看看，谢谢。", "tip": "just looking 只是看看，不想被推销时用。", "vocab": [{ "w": "just looking", "zh": "随便看看" }] },
+        { "id": "shopping-3", "speaker": "you", "en": "Do you have this in a larger size? / a medium?", "zh": "这个有大一号的吗？/ 中号？", "tip": "size 尺码：small / medium / large。", "vocab": [{ "w": "larger size", "zh": "大一号" }, { "w": "medium", "zh": "中号" }] },
+        { "id": "shopping-4", "speaker": "you", "en": "Where is the fitting room?", "zh": "试衣间在哪里？", "tip": "fitting room 试衣间。", "vocab": [{ "w": "fitting room", "zh": "试衣间" }] },
+        { "id": "shopping-5", "speaker": "you", "en": "How much is this? Does the price include tax?", "zh": "这个多少钱？标价含税吗？", "tip": "美国标价多不含税，结账加约4.7%（夏威夷）。", "vocab": [{ "w": "include tax", "zh": "含税" }, { "w": "price", "zh": "价格" }] },
+        { "id": "shopping-6", "speaker": "staff", "en": "Will that be cash or card? Credit or debit?", "zh": "现金还是刷卡？信用卡还是借记卡？", "tip": "选 credit 即可。", "vocab": [{ "w": "cash or card", "zh": "现金还是卡" }, { "w": "credit", "zh": "信用卡" }] },
+        { "id": "shopping-7", "speaker": "staff", "en": "Would you like a bag? It's ten cents.", "zh": "需要袋子吗？十美分。", "tip": "夏威夷塑料袋收费，可自带袋。", "vocab": [{ "w": "bag", "zh": "购物袋" }, { "w": "cents", "zh": "美分" }] },
+        { "id": "shopping-8", "speaker": "you", "en": "Can I get a receipt? I might return it.", "zh": "能给我收据吗？我可能要退。", "tip": "return 退货，美国退货通常方便，留好小票。", "vocab": [{ "w": "receipt", "zh": "收据" }, { "w": "return", "zh": "退货" }] }
+      ]
+    }
+  ],
+  "phrasebook": [
+    { "id": "pb-1", "en": "Sorry, I don't understand. Could you say it again, slowly?", "zh": "抱歉我没懂，能慢点再说一遍吗？" },
+    { "id": "pb-2", "en": "Could you write it down for me?", "zh": "能帮我写下来吗？" },
+    { "id": "pb-3", "en": "How much is it in total?", "zh": "总共多少钱？" },
+    { "id": "pb-4", "en": "Where is the restroom?", "zh": "洗手间在哪里？" },
+    { "id": "pb-5", "en": "Can you help me, please?", "zh": "能帮我一下吗？" },
+    { "id": "pb-6", "en": "My parents don't speak English. I'm translating for them.", "zh": "我父母不会英语，我帮他们翻译。" },
+    { "id": "pb-7", "en": "We need wheelchair assistance, please.", "zh": "我们需要轮椅协助。" },
+    { "id": "pb-8", "en": "Is there a Chinese-speaking staff member?", "zh": "有会说中文的工作人员吗？" },
+    { "id": "pb-9", "en": "Could you speak a little louder, please?", "zh": "能说大声一点吗？" },
+    { "id": "pb-10", "en": "One moment, please.", "zh": "请稍等。" }
+  ],
+  "emergencyCards": {
+    "intro": "给两位老人各做一张随身卡：走散、你不在或紧急时直接出示给当地人或医护。请把【方括号】里的信息填好，可截图打印随身带。",
+    "template": [
+      { "label": "Hello, I don't speak English.", "zh": "你好，我不会说英语。" },
+      { "label": "My name is: ________", "zh": "我的名字：______（填老人姓名拼音）" },
+      { "label": "I am traveling with my family. Please call:", "zh": "我和家人一起旅行，请拨打：" },
+      { "label": "Family contact (your phone): ________", "zh": "家人联系电话：______（填你的手机号/带国家码 +86 或当地号）" },
+      { "label": "We are staying at: ________", "zh": "我们住在：______（填 Airbnb 地址）" },
+      { "label": "Blood type: ____  Allergies: ____", "zh": "血型：____  过敏：______（如青霉素/海鲜）" },
+      { "label": "Medical conditions: ________", "zh": "慢性病：______（如高血压/糖尿病/心脏病）" },
+      { "label": "Medications I take: ________", "zh": "正在服用的药：______" },
+      { "label": "In an emergency, please call 911.", "zh": "紧急情况请拨打 911。" }
+    ]
+  }
+}

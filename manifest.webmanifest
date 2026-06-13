@@ -1,0 +1,16 @@
+{
+  "name": "夏威夷英语口语听力练习",
+  "short_name": "夏威夷英语",
+  "description": "为夏威夷之行准备的机场、商务舱、餐厅、购物英语口语听力练习，可离线反复听。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6f8",
+  "theme_color": "#0a6cff",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

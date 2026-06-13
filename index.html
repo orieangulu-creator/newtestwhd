@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a6cff" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>夏威夷英语练习</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <button id="backBtn" class="icon-btn hidden" aria-label="返回">‹</button>
+    <h1 id="headerTitle">夏威夷英语练习</h1>
+    <button id="offlineBadge" class="badge" title="离线状态">●</button>
+  </header>
+
+  <main id="view" class="view"></main>
+
+  <nav class="tabbar">
+    <button class="tab active" data-route="home"><span>📚</span>场景</button>
+    <button class="tab" data-route="phrasebook"><span>⚡</span>救场句</button>
+    <button class="tab" data-route="review"><span>⭐</span>复习</button>
+    <button class="tab" data-route="cards"><span>🆘</span>应急卡</button>
+  </nav>
+
+  <!-- 全局播放控制条 -->
+  <div id="playerBar" class="player-bar hidden">
+    <div class="pb-row">
+      <button id="pbPlay" class="pb-btn">▶</button>
+      <div class="pb-info">
+        <div id="pbEn" class="pb-en"></div>
+        <div id="pbZh" class="pb-zh"></div>
+      </div>
+      <button id="pbStar" class="pb-btn" title="收藏到复习">☆</button>
+      <button id="pbClose" class="pb-btn" title="关闭">✕</button>
+    </div>
+    <div class="pb-row controls">
+      <label class="ctl">循环
+        <input type="checkbox" id="pbLoop" />
+      </label>
+      <label class="ctl">连播
+        <input type="checkbox" id="pbAuto" />
+      </label>
+      <label class="ctl speed">速度 <span id="pbSpeedVal">1.0×</span>
+        <input type="range" id="pbSpeed" min="0.6" max="1.0" step="0.1" value="1.0" />
+      </label>
+    </div>
+  </div>
+
+  <script src="data/content-loader.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/review.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
