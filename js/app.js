@@ -42,6 +42,7 @@
     if (r.name === 'phrasebook') return renderPhrasebook();
     if (r.name === 'review') return renderReview();
     if (r.name === 'cards') return renderCards();
+    if (r.name === 'checklist') return renderChecklist();
     renderHome();
   }
 
@@ -263,6 +264,43 @@
     html += '<div class="intro-box note-tip">📌 用法：截图本页 → 打印或存进老人手机相册 → 走散/紧急时出示给当地人或拨打 911。' +
       '建议把方括号信息先填好（姓名拼音、你的手机号、Airbnb地址、血型过敏慢病用药）。</div>';
     view.innerHTML = html;
+  }
+
+  // ---------- pre-trip checklist ----------
+  var CK_KEY = 'hi_checklist_v1';
+  function ckLoad() { try { return JSON.parse(localStorage.getItem(CK_KEY)) || {}; } catch (e) { return {}; } }
+  function ckSave(m) { localStorage.setItem(CK_KEY, JSON.stringify(m)); }
+
+  function renderChecklist() {
+    headerTitle.textContent = '行前清单';
+    var cl = DATA.checklist;
+    var checked = ckLoad();
+    var total = 0, done = 0;
+    cl.groups.forEach(function (g) { g.items.forEach(function (it) { total++; if (checked[it.id]) done++; }); });
+    var pct = total ? Math.round(done / total * 100) : 0;
+    var html = '<div class="intro-box">📋 ' + esc(cl.intro) + '</div>';
+    html += '<div class="ck-progress"><div class="ck-bar"><div class="ck-fill" style="width:' + pct + '%"></div></div>' +
+      '<div class="ck-num">' + done + ' / ' + total + ' 完成</div></div>';
+    cl.groups.forEach(function (g) {
+      html += '<div class="section-title">' + esc(g.title) + '</div>';
+      g.items.forEach(function (it) {
+        var on = !!checked[it.id];
+        html += '<label class="ck-item ' + (on ? 'done' : '') + '" data-ck="' + it.id + '">' +
+          '<input type="checkbox" ' + (on ? 'checked' : '') + ' />' +
+          '<span class="ck-box">' + (on ? '✓' : '') + '</span>' +
+          '<span class="ck-text">' + esc(it.t) + '</span></label>';
+      });
+    });
+    view.innerHTML = html;
+    view.querySelectorAll('.ck-item').forEach(function (node) {
+      var id = node.getAttribute('data-ck');
+      node.querySelector('input').onchange = function () {
+        var m = ckLoad();
+        if (this.checked) m[id] = 1; else delete m[id];
+        ckSave(m);
+        renderChecklist();
+      };
+    });
   }
 
   // ---------- player bar ----------

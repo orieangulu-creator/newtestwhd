@@ -136,6 +136,157 @@
         { "id": "shopping-7", "speaker": "staff", "en": "Would you like a bag? It's ten cents.", "zh": "需要袋子吗？十美分。", "tip": "夏威夷塑料袋收费，可自带袋。", "vocab": [{ "w": "bag", "zh": "购物袋" }, { "w": "cents", "zh": "美分" }] },
         { "id": "shopping-8", "speaker": "you", "en": "Can I get a receipt? I might return it.", "zh": "能给我收据吗？我可能要退。", "tip": "return 退货，美国退货通常方便，留好小票。", "vocab": [{ "w": "receipt", "zh": "收据" }, { "w": "return", "zh": "退货" }] }
       ]
+    },
+    {
+      "id": "immigration",
+      "icon": "🛃",
+      "title": "入境 CBP 问答",
+      "subtitle": "Immigration / Border Control",
+      "category": "入境",
+      "intro": "边境官(CBP)会问几个固定问题，答案简短诚实即可。长辈可由你代答，但本人要在场、采指纹拍照。",
+      "lines": [
+        { "id": "immigration-1", "speaker": "staff", "en": "Next in line, please. Passports.", "zh": "下一位，请出示护照。", "tip": "next in line 下一位排队的。", "vocab": [{ "w": "next in line", "zh": "下一位" }] },
+        { "id": "immigration-2", "speaker": "staff", "en": "What is the purpose of your visit?", "zh": "你此行的目的是什么？", "tip": "标准答案：Tourism / Vacation 旅游度假。", "vocab": [{ "w": "purpose of your visit", "zh": "访问目的" }] },
+        { "id": "immigration-3", "speaker": "you", "en": "Tourism. We're here on vacation.", "zh": "旅游，我们来度假。", "tip": "on vacation 度假中。", "vocab": [{ "w": "tourism", "zh": "旅游" }, { "w": "on vacation", "zh": "度假" }] },
+        { "id": "immigration-4", "speaker": "staff", "en": "How long will you be staying?", "zh": "你们停留多久？", "tip": "答具体天数：Ten days. 十天。", "vocab": [{ "w": "how long", "zh": "多久" }] },
+        { "id": "immigration-5", "speaker": "staff", "en": "Where will you be staying?", "zh": "你们住在哪里？", "tip": "答 Airbnb/酒店名+城市，最好出示地址。", "vocab": [{ "w": "staying", "zh": "住宿" }] },
+        { "id": "immigration-6", "speaker": "you", "en": "At an Airbnb in Honolulu. Here's the address.", "zh": "檀香山的一个Airbnb，这是地址。", "tip": "Here's the address 这是地址。", "vocab": [{ "w": "address", "zh": "地址" }] },
+        { "id": "immigration-7", "speaker": "you", "en": "This is my family. My parents don't speak English, so I'm answering for them.", "zh": "这是我家人。我父母不会英语，我替他们回答。", "tip": "answering for them 替他们回答。", "vocab": [{ "w": "answering for them", "zh": "替他们回答" }] },
+        { "id": "immigration-8", "speaker": "staff", "en": "Do you have a return ticket?", "zh": "有回程机票吗？", "tip": "return ticket 回程票，提前截图备好。", "vocab": [{ "w": "return ticket", "zh": "回程机票" }] },
+        { "id": "immigration-9", "speaker": "staff", "en": "Look at the camera, and place four fingers on the scanner.", "zh": "看摄像头，四指放扫描仪上。", "tip": "采集指纹和照片，照做即可。", "vocab": [{ "w": "camera", "zh": "摄像头" }, { "w": "scanner", "zh": "扫描仪" }] },
+        { "id": "immigration-10", "speaker": "staff", "en": "Welcome to the United States. Enjoy your stay.", "zh": "欢迎来到美国，祝旅途愉快。", "tip": "听到这句就过关了。", "vocab": [{ "w": "enjoy your stay", "zh": "祝旅途愉快" }] }
+      ]
+    },
+    {
+      "id": "customs",
+      "icon": "🌽",
+      "title": "海关 / 农产品申报",
+      "subtitle": "Customs & Agriculture",
+      "category": "入境",
+      "intro": "夏威夷对食物/水果/植物检查极严。带了食物如实申报，没把握就申报。新鲜水果、肉类别带。",
+      "lines": [
+        { "id": "customs-1", "speaker": "staff", "en": "Do you have anything to declare?", "zh": "有什么要申报的吗？", "tip": "declare 申报；没有就答 Nothing to declare。", "vocab": [{ "w": "declare", "zh": "申报" }] },
+        { "id": "customs-2", "speaker": "you", "en": "No, nothing to declare.", "zh": "没有，没什么要申报的。", "tip": "nothing to declare 无申报物品。", "vocab": [{ "w": "nothing to declare", "zh": "无申报" }] },
+        { "id": "customs-3", "speaker": "staff", "en": "Are you carrying any fresh fruit, vegetables, meat, seeds, or plants?", "zh": "你们带了新鲜水果、蔬菜、肉、种子或植物吗？", "tip": "这些在夏威夷基本都禁带，听到要如实答。", "vocab": [{ "w": "fresh fruit", "zh": "新鲜水果" }, { "w": "seeds", "zh": "种子" }, { "w": "plants", "zh": "植物" }] },
+        { "id": "customs-4", "speaker": "you", "en": "No fresh food. We only have some sealed cookies and tea.", "zh": "没有新鲜食物，只有一些密封的饼干和茶。", "tip": "sealed 密封的；加工密封食品一般可以。", "vocab": [{ "w": "sealed", "zh": "密封的" }] },
+        { "id": "customs-5", "speaker": "you", "en": "We have some packaged snacks. Do we need to declare them?", "zh": "我们有些包装零食，需要申报吗？", "tip": "不确定就主动问，比被查到好。", "vocab": [{ "w": "packaged snacks", "zh": "包装零食" }] },
+        { "id": "customs-6", "speaker": "staff", "en": "Please put your bags on the belt for screening.", "zh": "请把行李放传送带上检查。", "tip": "belt 传送带；screening 安检。", "vocab": [{ "w": "belt", "zh": "传送带" }, { "w": "screening", "zh": "检查" }] },
+        { "id": "customs-7", "speaker": "tip", "en": "Hawaii bans fresh fruit, meat, seeds, soil, and live plants. Sealed processed food is usually fine — when in doubt, declare it.", "zh": "夏威夷禁带：新鲜水果、肉类、种子、土壤、活体植物。密封加工食品一般可以——拿不准就申报。", "tip": "申报不违法，不申报被查到才罚款。", "vocab": [{ "w": "bans", "zh": "禁止" }, { "w": "when in doubt", "zh": "拿不准时" }] },
+        { "id": "customs-8", "speaker": "staff", "en": "You're all set. Welcome to Hawaii!", "zh": "可以走了，欢迎来到夏威夷！", "tip": "all set 搞定了。", "vocab": [{ "w": "all set", "zh": "搞定" }] }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "icon": "🏠",
+      "title": "Airbnb 自助入住",
+      "subtitle": "Airbnb Check-in & Host",
+      "category": "住宿",
+      "intro": "Airbnb 多为自助入住(密码锁/钥匙盒)。提前在 App 跟房东确认门锁密码、WiFi、停车、退房。",
+      "lines": [
+        { "id": "airbnb-1", "speaker": "you", "en": "Hi, we just landed. What time can we check in?", "zh": "你好，我们刚落地，几点能入住？", "tip": "check in 入住。", "vocab": [{ "w": "check in", "zh": "入住" }] },
+        { "id": "airbnb-2", "speaker": "host", "en": "Check-in is after 3 PM. The door code is 4-7-2-9.", "zh": "下午3点后入住，门锁密码是4729。", "tip": "door code 门锁密码，记下来。", "vocab": [{ "w": "door code", "zh": "门锁密码" }] },
+        { "id": "airbnb-3", "speaker": "you", "en": "Could we check in early? We have two elderly travelers who are very tired.", "zh": "能提前入住吗？我们有两位老人很累了。", "tip": "check in early 提前入住；礼貌请求。", "vocab": [{ "w": "check in early", "zh": "提前入住" }] },
+        { "id": "airbnb-4", "speaker": "you", "en": "How do we get the keys?", "zh": "我们怎么拿钥匙？", "tip": "get the keys 拿钥匙。", "vocab": [{ "w": "keys", "zh": "钥匙" }] },
+        { "id": "airbnb-5", "speaker": "host", "en": "The keys are in a lockbox by the front door. The code is 1-1-5-5.", "zh": "钥匙在前门的钥匙盒里，密码1155。", "tip": "lockbox 钥匙密码盒。", "vocab": [{ "w": "lockbox", "zh": "钥匙盒" }, { "w": "front door", "zh": "前门" }] },
+        { "id": "airbnb-6", "speaker": "you", "en": "What's the WiFi name and password?", "zh": "WiFi名称和密码是什么？", "tip": "WiFi password 无线密码。", "vocab": [{ "w": "WiFi password", "zh": "无线密码" }] },
+        { "id": "airbnb-7", "speaker": "you", "en": "Is there parking, and is it free?", "zh": "有停车位吗？免费吗？", "tip": "parking 停车。", "vocab": [{ "w": "parking", "zh": "停车" }] },
+        { "id": "airbnb-8", "speaker": "you", "en": "The air conditioning isn't working. Could you help us?", "zh": "空调坏了，能帮我们吗？", "tip": "isn't working 坏了/不工作。", "vocab": [{ "w": "air conditioning", "zh": "空调" }, { "w": "isn't working", "zh": "坏了" }] },
+        { "id": "airbnb-9", "speaker": "you", "en": "What time is check-out, and where do we leave the keys?", "zh": "几点退房？钥匙放哪里？", "tip": "check-out 退房。", "vocab": [{ "w": "check-out", "zh": "退房" }] },
+        { "id": "airbnb-10", "speaker": "host", "en": "Check-out is 11 AM. Just leave the keys in the lockbox.", "zh": "11点退房，把钥匙放回钥匙盒就行。", "tip": "leave the keys 留下钥匙。", "vocab": [{ "w": "check-out is 11", "zh": "11点退房" }] }
+      ]
+    },
+    {
+      "id": "transport",
+      "icon": "🚗",
+      "title": "Uber / 出租 / 租车",
+      "subtitle": "Getting Around",
+      "category": "交通",
+      "intro": "落地用 Uber/Lyft 最方便(App叫车)。也可能在机场租车柜台取车。",
+      "lines": [
+        { "id": "transport-1", "speaker": "you", "en": "Hi, are you the Uber for Chen?", "zh": "你好，你是给Chen叫的Uber吗？", "tip": "上车前先核对名字和车牌。", "vocab": [{ "w": "Uber for", "zh": "给…叫的Uber" }] },
+        { "id": "transport-2", "speaker": "you", "en": "We're going to this address in Waikiki.", "zh": "我们去威基基的这个地址。", "tip": "Waikiki 威基基（著名海滩区）。", "vocab": [{ "w": "address", "zh": "地址" }] },
+        { "id": "transport-3", "speaker": "you", "en": "Could you help with the bags? We have three suitcases.", "zh": "能帮忙搬行李吗？我们有三个行李箱。", "tip": "suitcase 行李箱。", "vocab": [{ "w": "suitcases", "zh": "行李箱" }] },
+        { "id": "transport-4", "speaker": "driver", "en": "Hop in and buckle up, please.", "zh": "上车吧，请系好安全带。", "tip": "hop in 上车；buckle up 系安全带。", "vocab": [{ "w": "hop in", "zh": "上车" }, { "w": "buckle up", "zh": "系安全带" }] },
+        { "id": "transport-5", "speaker": "you", "en": "I have a reservation under Chen. Here's my license and passport.", "zh": "我有预订，姓Chen，这是我的驾照和护照。", "tip": "租车柜台用；reservation 预订。", "vocab": [{ "w": "reservation", "zh": "预订" }, { "w": "license", "zh": "驾照" }] },
+        { "id": "transport-6", "speaker": "staff", "en": "Would you like to add insurance?", "zh": "需要加保险吗？", "tip": "建议加 basic insurance 基本保险。", "vocab": [{ "w": "insurance", "zh": "保险" }] },
+        { "id": "transport-7", "speaker": "you", "en": "Just the basic insurance, please.", "zh": "只要基本保险就好。", "tip": "basic 基本的。", "vocab": [{ "w": "basic insurance", "zh": "基本保险" }] },
+        { "id": "transport-8", "speaker": "you", "en": "Where do I return the car, and do I need to fill up the gas?", "zh": "在哪还车？需要把油加满吗？", "tip": "fill up the gas 加满油；很多租车要满油还。", "vocab": [{ "w": "return the car", "zh": "还车" }, { "w": "fill up the gas", "zh": "加满油" }] },
+        { "id": "transport-9", "speaker": "you", "en": "Could you drop us at the main entrance?", "zh": "能在正门口放我们下车吗？", "tip": "drop us 让我们下车；main entrance 正门。", "vocab": [{ "w": "drop us", "zh": "放下车" }, { "w": "main entrance", "zh": "正门" }] }
+      ]
+    },
+    {
+      "id": "snorkel",
+      "icon": "🤿",
+      "title": "浮潜租赁 & 安全",
+      "subtitle": "Snorkeling",
+      "category": "活动",
+      "intro": "浮潜要租装备、听安全讲解。60+长辈量力而行：主动要救生衣、说明不太会游泳。防晒霜必须 reef-safe。",
+      "lines": [
+        { "id": "snorkel-1", "speaker": "you", "en": "We'd like to rent snorkel gear for three people.", "zh": "我们想租三人份的浮潜装备。", "tip": "snorkel gear 浮潜装备。", "vocab": [{ "w": "snorkel gear", "zh": "浮潜装备" }] },
+        { "id": "snorkel-2", "speaker": "staff", "en": "Here are your masks, snorkels, and fins. What shoe size?", "zh": "这是面镜、呼吸管和脚蹼。鞋码多少？", "tip": "mask 面镜；fins 脚蹼。", "vocab": [{ "w": "mask", "zh": "面镜" }, { "w": "fins", "zh": "脚蹼" }] },
+        { "id": "snorkel-3", "speaker": "you", "en": "Could we get life vests too? Two of us aren't strong swimmers.", "zh": "能再给救生衣吗？我们有两位不太会游泳。", "tip": "life vest 救生衣；非常重要，主动要。", "vocab": [{ "w": "life vest", "zh": "救生衣" }, { "w": "strong swimmer", "zh": "会游泳的人" }] },
+        { "id": "snorkel-4", "speaker": "you", "en": "My parents are seniors and it's their first time. Is it safe here?", "zh": "我父母是老人，第一次浮潜。这里安全吗？", "tip": "first time 第一次。", "vocab": [{ "w": "seniors", "zh": "老人" }, { "w": "first time", "zh": "第一次" }] },
+        { "id": "snorkel-5", "speaker": "staff", "en": "Stay in the shallow area, and don't touch the coral or the turtles.", "zh": "待在浅水区，不要碰珊瑚和海龟。", "tip": "shallow 浅的；coral 珊瑚；保护海洋且违法触碰海龟。", "vocab": [{ "w": "shallow area", "zh": "浅水区" }, { "w": "coral", "zh": "珊瑚" }, { "w": "turtles", "zh": "海龟" }] },
+        { "id": "snorkel-6", "speaker": "staff", "en": "If you feel tired, float on your back and raise your hand.", "zh": "如果累了，就仰面漂浮并举手。", "tip": "float on your back 仰漂；自救动作。", "vocab": [{ "w": "float on your back", "zh": "仰面漂浮" }, { "w": "raise your hand", "zh": "举手" }] },
+        { "id": "snorkel-7", "speaker": "you", "en": "Is the sunscreen reef-safe? I heard it's required here.", "zh": "防晒霜是护礁型的吗？听说这里强制要求。", "tip": "reef-safe 护礁防晒霜。", "vocab": [{ "w": "sunscreen", "zh": "防晒霜" }, { "w": "reef-safe", "zh": "护礁型" }] },
+        { "id": "snorkel-8", "speaker": "you", "en": "What time do we need to return the gear?", "zh": "我们几点要还装备？", "tip": "return the gear 还装备。", "vocab": [{ "w": "return the gear", "zh": "归还装备" }] },
+        { "id": "snorkel-9", "speaker": "tip", "en": "Hawaii bans sunscreen with oxybenzone or octinoxate — buy one labeled reef-safe. Hanauma Bay requires an online reservation and a short safety video.", "zh": "夏威夷禁用含 oxybenzone/octinoxate 的防晒霜，买标注 reef-safe 的。Hanauma Bay 需提前网上预约并观看安全短片。", "tip": "热门浮潜点要提前抢预约名额。", "vocab": [{ "w": "reservation", "zh": "预约" }, { "w": "safety video", "zh": "安全短片" }] }
+      ]
+    },
+    {
+      "id": "directions",
+      "icon": "🧭",
+      "title": "问路",
+      "subtitle": "Asking for Directions",
+      "category": "交通",
+      "intro": "听懂方向词(left/right/straight/block)是关键。听不懂就请对方在地图上指或写下来。",
+      "lines": [
+        { "id": "directions-1", "speaker": "you", "en": "Excuse me, how do I get to the beach from here?", "zh": "打扰一下，从这里怎么去海滩？", "tip": "how do I get to... 怎么去……", "vocab": [{ "w": "how do I get to", "zh": "怎么去" }] },
+        { "id": "directions-2", "speaker": "local", "en": "Go straight for two blocks, then turn left.", "zh": "直走两个街区，然后左转。", "tip": "block 街区；turn left 左转。", "vocab": [{ "w": "go straight", "zh": "直走" }, { "w": "blocks", "zh": "街区" }, { "w": "turn left", "zh": "左转" }] },
+        { "id": "directions-3", "speaker": "local", "en": "It's right next to the ABC Store. You can't miss it.", "zh": "它就在 ABC Store 旁边，你不会错过的。", "tip": "next to 旁边；can't miss it 很好找。", "vocab": [{ "w": "next to", "zh": "旁边" }, { "w": "can't miss it", "zh": "很好找" }] },
+        { "id": "directions-4", "speaker": "you", "en": "Is it within walking distance, or should I take a bus?", "zh": "走得到吗，还是该坐公交？", "tip": "within walking distance 步行可达。", "vocab": [{ "w": "walking distance", "zh": "步行距离" }] },
+        { "id": "directions-5", "speaker": "you", "en": "Sorry, could you show me on the map?", "zh": "抱歉，能在地图上指给我看吗？", "tip": "听不懂方向时的救场句。", "vocab": [{ "w": "show me on the map", "zh": "地图上指给我" }] },
+        { "id": "directions-6", "speaker": "you", "en": "Where is the nearest restroom or pharmacy?", "zh": "最近的洗手间或药店在哪？", "tip": "nearest 最近的；restroom 洗手间。", "vocab": [{ "w": "nearest", "zh": "最近的" }, { "w": "restroom", "zh": "洗手间" }, { "w": "pharmacy", "zh": "药店" }] },
+        { "id": "directions-7", "speaker": "local", "en": "It's about a five-minute walk, on your right.", "zh": "大约步行五分钟，在你右手边。", "tip": "on your right 在右手边。", "vocab": [{ "w": "on your right", "zh": "在你右边" }] },
+        { "id": "directions-8", "speaker": "you", "en": "Thank you so much for your help!", "zh": "太感谢你的帮助了！", "tip": "礼貌收尾。", "vocab": [{ "w": "thank you so much", "zh": "非常感谢" }] }
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "icon": "💊",
+      "title": "药店 & 紧急 / 911",
+      "subtitle": "Pharmacy & Emergency",
+      "category": "应急",
+      "intro": "长辈刚需。药店(CVS/Walgreens/ABC)买常用药；身体不适会描述症状；紧急拨 911(免费)。",
+      "lines": [
+        { "id": "pharmacy-1", "speaker": "you", "en": "Where can I find medicine for a cold or a fever?", "zh": "哪里能买感冒药或退烧药？", "tip": "medicine for a cold 感冒药；fever 发烧。", "vocab": [{ "w": "medicine", "zh": "药" }, { "w": "cold", "zh": "感冒" }, { "w": "fever", "zh": "发烧" }] },
+        { "id": "pharmacy-2", "speaker": "staff", "en": "Aisle 5, next to the pharmacy counter.", "zh": "5号通道，药房柜台旁边。", "tip": "aisle 货架通道（s不发音 /aɪl/）。", "vocab": [{ "w": "aisle", "zh": "通道" }, { "w": "pharmacy counter", "zh": "药房柜台" }] },
+        { "id": "pharmacy-3", "speaker": "you", "en": "My father has high blood pressure. Do you sell a blood pressure monitor?", "zh": "我父亲有高血压。你们卖血压计吗？", "tip": "high blood pressure 高血压。", "vocab": [{ "w": "high blood pressure", "zh": "高血压" }, { "w": "blood pressure monitor", "zh": "血压计" }] },
+        { "id": "pharmacy-4", "speaker": "you", "en": "Do I need a prescription for this?", "zh": "这个需要处方吗？", "tip": "prescription 处方。", "vocab": [{ "w": "prescription", "zh": "处方" }] },
+        { "id": "pharmacy-5", "speaker": "you", "en": "My mother isn't feeling well. She feels dizzy and short of breath.", "zh": "我母亲不舒服，她头晕、呼吸急促。", "tip": "dizzy 头晕；short of breath 呼吸急促。描述症状关键词。", "vocab": [{ "w": "dizzy", "zh": "头晕" }, { "w": "short of breath", "zh": "呼吸急促" }] },
+        { "id": "pharmacy-6", "speaker": "you", "en": "Hello, this is an emergency. We need an ambulance.", "zh": "你好，这是紧急情况，我们需要救护车。", "tip": "打911开头第一句；ambulance 救护车。", "vocab": [{ "w": "emergency", "zh": "紧急情况" }, { "w": "ambulance", "zh": "救护车" }] },
+        { "id": "pharmacy-7", "speaker": "you", "en": "An elderly woman has chest pain. The address is on the door — please hurry.", "zh": "一位老年女性胸痛，地址在门上——请快点。", "tip": "chest pain 胸痛；报清地点和症状。", "vocab": [{ "w": "chest pain", "zh": "胸痛" }, { "w": "address", "zh": "地址" }] },
+        { "id": "pharmacy-8", "speaker": "you", "en": "She has high blood pressure and is allergic to penicillin.", "zh": "她有高血压，并且对青霉素过敏。", "tip": "allergic to 对…过敏；告知病史和过敏。", "vocab": [{ "w": "allergic to", "zh": "对…过敏" }, { "w": "penicillin", "zh": "青霉素" }] },
+        { "id": "pharmacy-9", "speaker": "tip", "en": "In the US, dial 911 for any emergency — it's free from any phone. Say: the location, what happened, and how many people need help.", "zh": "在美国任何紧急情况拨 911——任何手机免费。说清：地点、发生了什么、几个人需要帮助。", "tip": "把长辈病史/用药/过敏写在应急卡上随身带。", "vocab": [{ "w": "dial 911", "zh": "拨打911" }, { "w": "location", "zh": "地点" }] }
+      ]
+    },
+    {
+      "id": "baggage",
+      "icon": "🧳",
+      "title": "行李丢失 / 延误",
+      "subtitle": "Lost / Delayed Baggage",
+      "category": "机场",
+      "intro": "行李没到就去 Baggage Service 认领处报失，留住址和电话。重要药品别放托运。",
+      "lines": [
+        { "id": "baggage-1", "speaker": "you", "en": "My checked bag didn't arrive. Where do I report it?", "zh": "我的托运行李没到，去哪报失？", "tip": "checked bag 托运行李；report 报失。", "vocab": [{ "w": "checked bag", "zh": "托运行李" }, { "w": "report", "zh": "报失" }] },
+        { "id": "baggage-2", "speaker": "staff", "en": "Please go to the Baggage Service Office with your claim tag.", "zh": "请带着行李条去行李服务处。", "tip": "claim tag 行李条（值机贴的小票）。", "vocab": [{ "w": "Baggage Service Office", "zh": "行李服务处" }, { "w": "claim tag", "zh": "行李条" }] },
+        { "id": "baggage-3", "speaker": "you", "en": "Here's my baggage claim tag and boarding pass.", "zh": "这是我的行李条和登机牌。", "tip": "出示凭证。", "vocab": [{ "w": "boarding pass", "zh": "登机牌" }] },
+        { "id": "baggage-4", "speaker": "staff", "en": "Can you describe the bag? Color, size, and brand?", "zh": "能描述一下行李吗？颜色、大小、品牌？", "tip": "describe 描述。", "vocab": [{ "w": "describe", "zh": "描述" }, { "w": "brand", "zh": "品牌" }] },
+        { "id": "baggage-5", "speaker": "you", "en": "It's a large black hard-shell suitcase.", "zh": "是一个大号黑色硬壳行李箱。", "tip": "hard-shell 硬壳。", "vocab": [{ "w": "hard-shell suitcase", "zh": "硬壳行李箱" }] },
+        { "id": "baggage-6", "speaker": "staff", "en": "We'll deliver it to your address once we find it.", "zh": "找到后我们会送到你的地址。", "tip": "deliver 送达。", "vocab": [{ "w": "deliver", "zh": "送达" }] },
+        { "id": "baggage-7", "speaker": "you", "en": "How long does it usually take? My medication is inside.", "zh": "通常要多久？我的药在里面。", "tip": "提醒里面有药，催得更紧。", "vocab": [{ "w": "medication", "zh": "药物" }] },
+        { "id": "baggage-8", "speaker": "you", "en": "Could you call this number as soon as you find it?", "zh": "找到后能马上打这个电话吗？", "tip": "as soon as 一……就……", "vocab": [{ "w": "as soon as", "zh": "一旦/尽快" }] }
+      ]
     }
   ],
   "phrasebook": [
@@ -162,6 +313,60 @@
       { "label": "Medical conditions: ________", "zh": "慢性病：______（如高血压/糖尿病/心脏病）" },
       { "label": "Medications I take: ________", "zh": "正在服用的药：______" },
       { "label": "In an emergency, please call 911.", "zh": "紧急情况请拨打 911。" }
+    ]
+  },
+  "checklist": {
+    "intro": "出发前逐项勾选，勾选状态会保存在本机。重点是把容易忽略的盲点都办掉。",
+    "groups": [
+      {
+        "title": "证件 & 手续（现在就办）",
+        "items": [
+          { "id": "ck-esta", "t": "给 3 人都申请 ESTA 免签授权（最长 72 小时出签，别拖到临行）" },
+          { "id": "ck-passport", "t": "确认 3 本护照有效期都 ≥ 6 个月" },
+          { "id": "ck-insurance", "t": "给两位长辈买含医疗的旅行保险（美国看病极贵）" },
+          { "id": "ck-wheelchair", "t": "出发前致电达美预约机场轮椅 / 陪护服务" },
+          { "id": "ck-print", "t": "打印或截图：机票、Airbnb 地址、ESTA 确认、保险单、回程机票" }
+        ]
+      },
+      {
+        "title": "长辈专属",
+        "items": [
+          { "id": "ck-card", "t": "填好两张应急沟通卡并打印随身（见「应急卡」页）" },
+          { "id": "ck-meds", "t": "常用药放随身行李、留原包装、带英文处方 / 药单" },
+          { "id": "ck-history", "t": "把长辈病史、过敏、用药写进应急卡" },
+          { "id": "ck-otc", "t": "备晕机药、肠胃药、创可贴、个人慢性病药足量" },
+          { "id": "ck-snorkel-health", "t": "浮潜前评估长辈身体（心脏 / 血压），量力而行" },
+          { "id": "ck-reef", "t": "买 reef-safe 防晒霜；热门浮潜点（如 Hanauma Bay）提前网上预约" }
+        ]
+      },
+      {
+        "title": "钱 & 通讯",
+        "items": [
+          { "id": "ck-bank", "t": "通知银行将在美国用卡，最好带一张免外币手续费的卡" },
+          { "id": "ck-cash", "t": "备一些 1 美元、5 美元现金用于小费" },
+          { "id": "ck-esim", "t": "买美国 eSIM / 流量套餐（落地用 Uber、地图、翻译）" },
+          { "id": "ck-numbers", "t": "存好紧急号码：911、檀香山中国总领馆、Airbnb 房东" },
+          { "id": "ck-apps", "t": "下载离线地图、Uber / Lyft、翻译 App" }
+        ]
+      },
+      {
+        "title": "行李",
+        "items": [
+          { "id": "ck-adapter", "t": "带转换插头（美国 110V，手机充电器一般兼容）" },
+          { "id": "ck-nofood", "t": "别带新鲜水果 / 肉 / 种子（夏威夷检疫极严）" },
+          { "id": "ck-liquids", "t": "随身液体 ≤ 100ml；药品可超量但需能说明" },
+          { "id": "ck-beach", "t": "泳衣、防晒、帽子、墨镜、轻便鞋、浮潜（如自带）" }
+        ]
+      },
+      {
+        "title": "到达后",
+        "items": [
+          { "id": "ck-cbp", "t": "入境如实回答 CBP；长辈由你代答但本人需在场" },
+          { "id": "ck-jetlag", "t": "倒时差：夏威夷比北京慢 18 小时，落地后多晒太阳" },
+          { "id": "ck-checkin", "t": "入住先确认门锁密码 / WiFi / 退房时间" },
+          { "id": "ck-licensed", "t": "浮潜认准持牌运营商，务必听完安全讲解" }
+        ]
+      }
     ]
   }
 }

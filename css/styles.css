@@ -137,3 +137,15 @@ body {
 .ecard .ec-en { font-size: 15px; font-weight: 600; }
 .ecard .ec-zh { font-size: 12px; color: var(--muted); margin-top: 2px; }
 .note-tip { font-size: 13px; color: #374151; line-height: 1.6; }
+
+/* Checklist */
+.ck-progress { display: flex; align-items: center; gap: 10px; margin: 4px 2px 6px; }
+.ck-bar { flex: 1; height: 8px; background: #e6e8ec; border-radius: 6px; overflow: hidden; }
+.ck-fill { height: 100%; background: var(--tip-c); transition: width .25s; }
+.ck-num { font-size: 12px; color: var(--muted); white-space: nowrap; }
+.ck-item { display: flex; align-items: flex-start; gap: 10px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; margin-bottom: 8px; box-shadow: var(--shadow); cursor: pointer; }
+.ck-item input { display: none; }
+.ck-box { flex: none; width: 22px; height: 22px; border: 2px solid var(--line); border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 14px; font-weight: 700; margin-top: 1px; }
+.ck-item.done .ck-box { background: var(--tip-c); border-color: var(--tip-c); }
+.ck-text { font-size: 14px; line-height: 1.5; }
+.ck-item.done .ck-text { color: var(--muted); text-decoration: line-through; }
