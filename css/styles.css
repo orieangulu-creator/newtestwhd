@@ -80,6 +80,11 @@ body {
 .line-actions { margin-left: auto; display: flex; gap: 4px; }
 .mini-btn { border: none; background: #eef1f5; border-radius: 8px; padding: 6px 10px; font-size: 14px; cursor: pointer; }
 .mini-btn.star.on { background: #fff4d6; color: var(--gold); }
+.mini-btn.mic.rec { background: #ef4444; color: #fff; animation: pulse 1s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .55; } }
+.rec-row { display: flex; gap: 8px; margin-top: 10px; }
+.rec-cmp { flex: 1; border: 1px solid var(--line); background: #f7f9fc; border-radius: 9px; padding: 8px; font-size: 13px; cursor: pointer; }
+.rec-cmp.mine { background: #eef4ff; border-color: #dbe7ff; color: var(--blue); }
 .line-en { font-size: 16px; font-weight: 600; line-height: 1.5; }
 .line-en .kw { color: var(--blue); border-bottom: 1px dashed var(--blue); cursor: pointer; }
 .line-zh { font-size: 14px; color: #374151; margin-top: 5px; line-height: 1.5; }
@@ -149,3 +154,8 @@ body {
 .ck-item.done .ck-box { background: var(--tip-c); border-color: var(--tip-c); }
 .ck-text { font-size: 14px; line-height: 1.5; }
 .ck-item.done .ck-text { color: var(--muted); text-decoration: line-through; }
+
+/* Drills */
+.drill-q { font-size: 14px; color: var(--muted); padding: 4px 0; }
+.drill-a { margin: 4px 0; }
+.drill-toggle { margin-top: 8px; border: 1px solid var(--line); background: #f0fdf4; color: var(--tip-c); border-radius: 9px; padding: 8px 12px; font-size: 13px; cursor: pointer; }

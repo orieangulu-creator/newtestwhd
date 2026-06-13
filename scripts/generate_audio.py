@@ -48,6 +48,10 @@ def collect(content):
                 items.setdefault(wid, (v["w"], VOICES["word"]))
     for p in content.get("phrasebook", []):
         items[p["id"]] = (p["en"], VOICES["you"])
+    drills = content.get("drills", {})
+    for g in drills.get("groups", []):
+        for it in g.get("items", []):
+            items[it["id"]] = (it["en"], VOICES["staff"])
     return [(k, v[0], v[1]) for k, v in items.items()]
 
 

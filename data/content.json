@@ -368,5 +368,37 @@
         ]
       }
     ]
+  },
+  "drills": {
+    "intro": "美国人报价格、时间、航班号很快，最容易听漏。先点 ▶ 听，自己在心里写出数字，再点卡片揭晓答案。可开循环反复听。",
+    "groups": [
+      {
+        "title": "价格 / 金钱",
+        "items": [
+          { "id": "drill-money-1", "en": "Your total is forty-seven dollars and fifty cents.", "zh": "总额 $47.50（forty-seven = 47，fifty cents = 50美分）" },
+          { "id": "drill-money-2", "en": "That'll be one hundred and thirteen dollars.", "zh": "$113（one hundred and thirteen = 113）" },
+          { "id": "drill-money-3", "en": "It's fifteen ninety-nine plus tax.", "zh": "$15.99 另加税（fifteen ninety-nine = 15.99）" },
+          { "id": "drill-money-4", "en": "It comes to ninety dollars even.", "zh": "正好 $90（even = 整数，不带零头）" }
+        ]
+      },
+      {
+        "title": "时间",
+        "items": [
+          { "id": "drill-time-1", "en": "Boarding starts at nine forty-five.", "zh": "9:45 开始登机（nine forty-five = 9点45）" },
+          { "id": "drill-time-2", "en": "The next bus comes at a quarter past ten.", "zh": "10:15（a quarter past ten = 10点过一刻 = 10:15）" },
+          { "id": "drill-time-3", "en": "We close at half past eight.", "zh": "8:30 关门（half past eight = 8点半）" },
+          { "id": "drill-time-4", "en": "Your reservation is for seven thirty p.m.", "zh": "晚上 7:30 的预订（seven thirty p.m.）" }
+        ]
+      },
+      {
+        "title": "航班 / 号码",
+        "items": [
+          { "id": "drill-num-1", "en": "Flight two eighty-five departs from gate B twenty-two.", "zh": "285 航班，B22 登机口（two eighty-five = 285，B twenty-two = B22）" },
+          { "id": "drill-num-2", "en": "Please call us at eight-oh-eight, five-five-five, one-two-three-four.", "zh": "电话 808-555-1234（oh = 0，逐位读）" },
+          { "id": "drill-num-3", "en": "Your confirmation number is K, four, nine, seven.", "zh": "确认号 K497（字母+逐位数字）" },
+          { "id": "drill-num-4", "en": "The flight is delayed by forty minutes.", "zh": "航班延误 40 分钟（forty = 40，注意区别 fourteen 14）" }
+        ]
+      }
+    ]
   }
 }

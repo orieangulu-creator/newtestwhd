@@ -35,10 +35,12 @@
 
   function render() {
     var r = parseRoute();
-    setActiveTab(r.name === 'scenario' ? 'home' : r.name);
-    backBtn.classList.toggle('hidden', r.name !== 'scenario');
+    var isSub = (r.name === 'scenario' || r.name === 'drills');
+    setActiveTab(isSub ? 'home' : r.name);
+    backBtn.classList.toggle('hidden', !isSub);
     if (r.name === 'home') return renderHome();
     if (r.name === 'scenario') return renderScenario(r.arg);
+    if (r.name === 'drills') return renderDrills();
     if (r.name === 'phrasebook') return renderPhrasebook();
     if (r.name === 'review') return renderReview();
     if (r.name === 'cards') return renderCards();
@@ -70,13 +72,64 @@
           '<div class="scene-chev">›</div></div>';
       });
     });
+    if (DATA.drills) {
+      html += '<div class="section-title">听力训练</div>' +
+        '<div class="scene-card" data-drills="1">' +
+        '<div class="scene-icon">🎧</div>' +
+        '<div class="scene-meta"><div class="t">数字 · 金钱 · 时间</div>' +
+        '<div class="s">Numbers, Money & Time</div>' +
+        '<div class="n">听报价、报时、航班号——美国人说得快，专项练耳。</div></div>' +
+        '<div class="scene-chev">›</div></div>';
+    }
     view.innerHTML = html;
     view.querySelectorAll('.scene-card').forEach(function (c) {
-      c.onclick = function () { go('scenario/' + c.getAttribute('data-scene')); };
+      if (c.getAttribute('data-drills')) c.onclick = function () { go('drills'); };
+      else c.onclick = function () { go('scenario/' + c.getAttribute('data-scene')); };
     });
   }
 
+  var drillReveal = {}; // drillId -> true when answer shown
+  function renderDrills() {
+    var d = DATA.drills;
+    headerTitle.textContent = '听力训练';
+    var html = '<div class="intro-box">🎧 ' + esc(d.intro) + '</div>';
+    var all = [];
+    d.groups.forEach(function (g) {
+      html += '<div class="section-title">' + esc(g.title) + '</div>';
+      g.items.forEach(function (it) {
+        all.push(it);
+        var shown = drillReveal[it.id];
+        html += '<div class="line tip" data-line="' + it.id + '" data-drill="' + it.id + '">' +
+          '<div class="line-top"><span class="role tip">听写</span>' +
+          '<div class="line-actions"><button class="mini-btn play">▶</button></div></div>' +
+          '<div class="drill-q">点 ▶ 听，在心里写出数字</div>' +
+          '<div class="drill-a"' + (shown ? '' : ' style="display:none"') + '><div class="line-en">' + esc(it.en) + '</div>' +
+          '<div class="line-zh">' + esc(it.zh) + '</div></div>' +
+          '<button class="drill-toggle">' + (shown ? '隐藏答案' : '揭晓答案') + '</button>' +
+          '</div>';
+      });
+    });
+    html += '<button class="ghost-btn" id="drillAll" style="margin-top:12px">▶ 连续听全部</button>';
+    view.innerHTML = html;
+    var objs = all.map(function (it) { return { id: it.id, en: it.en, zh: it.zh, scenario: '听力训练' }; });
+    view.querySelectorAll('.line[data-drill]').forEach(function (node, i) {
+      node.querySelector('.play').onclick = function () { window.Player.play(objs[i], objs, i); showBar(objs[i]); };
+      node.querySelector('.drill-toggle').onclick = function () {
+        var id = node.getAttribute('data-drill');
+        drillReveal[id] = !drillReveal[id];
+        node.querySelector('.drill-a').style.display = drillReveal[id] ? '' : 'none';
+        node.querySelector('.drill-q').style.display = drillReveal[id] ? 'none' : '';
+        this.textContent = drillReveal[id] ? '隐藏答案' : '揭晓答案';
+      };
+    });
+    view.querySelector('#drillAll').onclick = function () {
+      document.getElementById('pbAuto').checked = true; window.Player.setAutoplay(true);
+      window.Player.play(objs[0], objs, 0); showBar(objs[0]);
+    };
+  }
+
   var dlgPrefs = { zh: true, tip: true };
+  var recordings = {}; // lineId -> object URL of user's recording (session only)
 
   function renderScenario(id) {
     var s = findScenario(id);
@@ -96,12 +149,16 @@
         '<div class="line-top"><span class="role ' + role + '">' + roleLabel + '</span>' +
         '<div class="line-actions">' +
         '<button class="mini-btn play" title="播放">▶</button>' +
+        '<button class="mini-btn mic" title="跟读录音">🎤</button>' +
         '<button class="mini-btn star ' + (starred ? 'on' : '') + '" title="收藏">' + (starred ? '★' : '☆') + '</button>' +
         '</div></div>' +
         '<div class="line-en">' + highlightKw(l.en, l.vocab) + '</div>' +
         '<div class="line-zh"' + (dlgPrefs.zh ? '' : ' style="display:none"') + '>' + esc(l.zh) + '</div>' +
         (l.tip ? '<div class="line-tip"' + (dlgPrefs.tip ? '' : ' style="display:none"') + '>💡 ' + esc(l.tip) + '</div>' : '') +
         renderVocab(l.vocab) +
+        '<div class="rec-row' + (recordings[l.id] ? '' : ' hidden') + '">' +
+        '<button class="rec-cmp orig">▶ 原音</button>' +
+        '<button class="rec-cmp mine">▶ 我的录音</button></div>' +
         '</div>';
     });
     view.innerHTML = html;
@@ -116,12 +173,17 @@
     };
 
     view.querySelectorAll('.line').forEach(function (node, i) {
+      var lid = lineObjs[i].id;
       node.querySelector('.play').onclick = function () { window.Player.play(lineObjs[i], lineObjs, i); showBar(lineObjs[i]); };
       var star = node.querySelector('.star');
       star.onclick = function () {
         var on = window.Review.toggle(lineObjs[i]);
         star.classList.toggle('on', on); star.textContent = on ? '★' : '☆';
       };
+      var mic = node.querySelector('.mic');
+      mic.onclick = function () { handleMic(mic, lid, lineObjs[i], i, lineObjs); };
+      node.querySelector('.rec-row .orig').onclick = function () { window.Player.play(lineObjs[i], lineObjs, i); showBar(lineObjs[i]); };
+      node.querySelector('.rec-row .mine').onclick = function () { window.Recorder.playUrl(recordings[lid]); };
       node.querySelectorAll('.kw, .chip').forEach(function (k) {
         k.onclick = function (e) {
           e.stopPropagation();
@@ -144,6 +206,30 @@
 
   function slug(w) { return w.toLowerCase().replace(/[^a-z0-9]+/g, '-'); }
   function decorate(l, s) { return { id: l.id, en: l.en, zh: l.zh, scenario: s.title }; }
+
+  // record-and-compare shadowing
+  function handleMic(btn, lid, lineObj, i, lineObjs) {
+    if (!window.Recorder.supported) { alert('此浏览器/环境不支持录音。请用手机 Safari 或 Chrome，并通过 HTTPS 打开。'); return; }
+    if (window.Recorder.isRecording()) {
+      btn.classList.remove('rec'); btn.textContent = '🎤';
+      window.Recorder.stop().then(function (url) {
+        if (url) {
+          recordings[lid] = url;
+          var row = btn.closest('.line').querySelector('.rec-row');
+          if (row) row.classList.remove('hidden');
+          window.Recorder.playUrl(url); // play back immediately
+        }
+      });
+    } else {
+      // play original once, then record so you can shadow right after
+      window.Player.play(lineObj, lineObjs, i); showBar(lineObj);
+      window.Recorder.start().then(function () {
+        btn.classList.add('rec'); btn.textContent = '⏹';
+      }).catch(function () {
+        alert('无法访问麦克风，请在浏览器里允许麦克风权限。');
+      });
+    }
+  }
 
   function renderPhrasebook() {
     headerTitle.textContent = '万能救场句';
