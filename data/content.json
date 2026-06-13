@@ -287,6 +287,92 @@
         { "id": "baggage-7", "speaker": "you", "en": "How long does it usually take? My medication is inside.", "zh": "通常要多久？我的药在里面。", "tip": "提醒里面有药，催得更紧。", "vocab": [{ "w": "medication", "zh": "药物" }] },
         { "id": "baggage-8", "speaker": "you", "en": "Could you call this number as soon as you find it?", "zh": "找到后能马上打这个电话吗？", "tip": "as soon as 一……就……", "vocab": [{ "w": "as soon as", "zh": "一旦/尽快" }] }
       ]
+    },
+    {
+      "id": "luau",
+      "icon": "🐷",
+      "title": "Luau 烤猪宴 / 订活动",
+      "subtitle": "Booking a Luau & Activities",
+      "category": "活动",
+      "intro": "Luau 是夏威夷传统烤猪宴+草裙舞表演，很值得带长辈体验。这组教你订票、说人数、问含不含接送和餐食。",
+      "lines": [
+        { "id": "luau-1", "speaker": "you", "en": "Hi, we'd like to book a luau for three people this Friday.", "zh": "你好，我们想订这周五三人的烤猪宴。", "tip": "book 预订；luau /ˈluː.aʊ/ 烤猪宴。", "vocab": [{ "w": "book", "zh": "预订" }, { "w": "luau", "zh": "烤猪宴" }] },
+        { "id": "luau-2", "speaker": "staff", "en": "Sure! Would you like standard seating or the premium package?", "zh": "好的！您要标准座位还是高级套餐？", "tip": "seating 座位；package 套餐。", "vocab": [{ "w": "seating", "zh": "座位" }, { "w": "package", "zh": "套餐" }] },
+        { "id": "luau-3", "speaker": "you", "en": "Does the price include dinner and the show?", "zh": "价格含晚餐和表演吗？", "tip": "include 含；the show 表演。", "vocab": [{ "w": "include", "zh": "包含" }, { "w": "the show", "zh": "表演" }] },
+        { "id": "luau-4", "speaker": "you", "en": "Is hotel pickup included, or do we drive ourselves?", "zh": "含酒店接送吗，还是我们自己开车去？", "tip": "pickup 接送；很实用，省得自己找路。", "vocab": [{ "w": "hotel pickup", "zh": "酒店接送" }] },
+        { "id": "luau-5", "speaker": "you", "en": "Two of us are seniors. Are there seats with backs and easy access?", "zh": "我们有两位老人。有带靠背、方便进出的座位吗？", "tip": "seats with backs 带靠背的座位；easy access 方便出入。", "vocab": [{ "w": "seats with backs", "zh": "带靠背座位" }, { "w": "easy access", "zh": "方便出入" }] },
+        { "id": "luau-6", "speaker": "staff", "en": "The doors open at five, and the show starts at six-thirty.", "zh": "五点开门，表演六点半开始。", "tip": "doors open 开门入场。", "vocab": [{ "w": "doors open", "zh": "开门入场" }] },
+        { "id": "luau-7", "speaker": "you", "en": "Can we pay now, or do we pay when we get there?", "zh": "现在付款，还是到场再付？", "tip": "pay now / when we get there 现在付/到了付。", "vocab": [{ "w": "pay now", "zh": "现在付款" }] },
+        { "id": "luau-8", "speaker": "you", "en": "Could I get a confirmation email?", "zh": "能给我一封确认邮件吗？", "tip": "confirmation email 确认邮件，留作凭证。", "vocab": [{ "w": "confirmation email", "zh": "确认邮件" }] }
+      ]
+    },
+    {
+      "id": "grocery",
+      "icon": "🛒",
+      "title": "超市买菜",
+      "subtitle": "At the Grocery Store",
+      "category": "购物",
+      "intro": "Foodland、ABC Stores、Walmart 等买水、水果、自煮食材。会找东西、问价、结账即可。",
+      "lines": [
+        { "id": "grocery-1", "speaker": "you", "en": "Excuse me, where can I find bottled water?", "zh": "请问，瓶装水在哪里？", "tip": "bottled water 瓶装水。", "vocab": [{ "w": "bottled water", "zh": "瓶装水" }] },
+        { "id": "grocery-2", "speaker": "staff", "en": "It's in aisle 7, on the right.", "zh": "在7号货架，右手边。", "tip": "aisle 货架通道。", "vocab": [{ "w": "aisle", "zh": "货架通道" }] },
+        { "id": "grocery-3", "speaker": "you", "en": "How much is this per pound?", "zh": "这个每磅多少钱？", "tip": "美国用磅(pound)；水果常按磅算。", "vocab": [{ "w": "per pound", "zh": "每磅" }] },
+        { "id": "grocery-4", "speaker": "staff", "en": "Did you find everything okay?", "zh": "需要的都找到了吗？", "tip": "收银常说这句，答 Yes, thank you 即可。", "vocab": [{ "w": "find everything", "zh": "都找到" }] },
+        { "id": "grocery-5", "speaker": "staff", "en": "Do you have a rewards card or a phone number with us?", "zh": "有会员卡或登记过手机号吗？", "tip": "rewards card 会员卡，没有就说 No, I don't.", "vocab": [{ "w": "rewards card", "zh": "会员卡" }] },
+        { "id": "grocery-6", "speaker": "staff", "en": "Paper or plastic? Or did you bring your own bag?", "zh": "纸袋还是塑料袋？还是自带袋子？", "tip": "夏威夷塑料袋收费，自带袋更省。", "vocab": [{ "w": "paper or plastic", "zh": "纸袋还是塑料袋" }] },
+        { "id": "grocery-7", "speaker": "you", "en": "I'll use self-checkout. Where do I scan?", "zh": "我用自助结账。在哪扫码？", "tip": "self-checkout 自助结账；scan 扫码。", "vocab": [{ "w": "self-checkout", "zh": "自助结账" }, { "w": "scan", "zh": "扫码" }] },
+        { "id": "grocery-8", "speaker": "you", "en": "Can I get some cash back?", "zh": "能顺便取点现金吗？", "tip": "美国超市刷卡可“cash back”取现，方便备小费零钱。", "vocab": [{ "w": "cash back", "zh": "结账取现" }] }
+      ]
+    },
+    {
+      "id": "coffee",
+      "icon": "☕",
+      "title": "咖啡 / 早餐点单",
+      "subtitle": "Coffee & Breakfast",
+      "category": "餐饮",
+      "intro": "星巴克类咖啡店点单节奏快，会报名字取餐。掌握杯型和常见搭配就不慌。",
+      "lines": [
+        { "id": "coffee-1", "speaker": "staff", "en": "Hi, what can I get started for you?", "zh": "你好，想点什么？", "tip": "点单开场白，直接说要的即可。", "vocab": [{ "w": "what can I get you", "zh": "想点什么" }] },
+        { "id": "coffee-2", "speaker": "you", "en": "Can I get a medium latte and a black coffee, please?", "zh": "我要一杯中杯拿铁和一杯美式黑咖啡。", "tip": "星巴克杯型：tall小/grande中/venti大；说 medium 一般也懂。", "vocab": [{ "w": "latte", "zh": "拿铁" }, { "w": "black coffee", "zh": "黑咖啡" }] },
+        { "id": "coffee-3", "speaker": "staff", "en": "For here or to go?", "zh": "堂食还是带走？", "tip": "for here 堂食；to go 带走。", "vocab": [{ "w": "for here", "zh": "堂食" }, { "w": "to go", "zh": "带走" }] },
+        { "id": "coffee-4", "speaker": "you", "en": "To go, please. Could you make one less sweet?", "zh": "带走，谢谢。能有一杯少糖吗？", "tip": "less sweet 少糖；less ice 少冰。", "vocab": [{ "w": "less sweet", "zh": "少糖" }] },
+        { "id": "coffee-5", "speaker": "staff", "en": "Can I get a name for the order?", "zh": "点单留个名字好吗？", "tip": "报个简单名字，做好会喊名取餐。", "vocab": [{ "w": "a name for the order", "zh": "点单的名字" }] },
+        { "id": "coffee-6", "speaker": "you", "en": "Do you have any pastries or breakfast sandwiches?", "zh": "有面包点心或早餐三明治吗？", "tip": "pastry 酥点；breakfast sandwich 早餐三明治。", "vocab": [{ "w": "pastries", "zh": "面包点心" }, { "w": "breakfast sandwich", "zh": "早餐三明治" }] },
+        { "id": "coffee-7", "speaker": "staff", "en": "Your order will be ready at the end of the counter.", "zh": "你的餐在柜台另一头取。", "tip": "end of the counter 柜台尽头(取餐区)。", "vocab": [{ "w": "end of the counter", "zh": "柜台尽头" }] }
+      ]
+    },
+    {
+      "id": "smalltalk",
+      "icon": "📸",
+      "title": "请人拍照 / 寒暄",
+      "subtitle": "Photos & Small Talk",
+      "category": "日常",
+      "intro": "请陌生人帮拍合照、回应友好搭讪。夏威夷人热情，会说几句寒暄能拉近距离。",
+      "lines": [
+        { "id": "smalltalk-1", "speaker": "you", "en": "Excuse me, could you take a photo of us?", "zh": "打扰一下，能帮我们拍张照吗？", "tip": "take a photo of us 帮我们拍照。", "vocab": [{ "w": "take a photo", "zh": "拍照" }] },
+        { "id": "smalltalk-2", "speaker": "you", "en": "Just tap the white button. One more, please!", "zh": "点白色按钮就行。再来一张，谢谢！", "tip": "tap 点按；one more 再一张。", "vocab": [{ "w": "tap", "zh": "点按" }, { "w": "one more", "zh": "再一张" }] },
+        { "id": "smalltalk-3", "speaker": "local", "en": "Aloha! Where are you folks visiting from?", "zh": "Aloha！你们从哪儿来玩呀？", "tip": "Aloha 你好/再见/爱；folks 你们(随意)。", "vocab": [{ "w": "Aloha", "zh": "你好(夏威夷语)" }, { "w": "folks", "zh": "各位/你们" }] },
+        { "id": "smalltalk-4", "speaker": "you", "en": "We're from China. It's our first time in Hawaii — it's beautiful!", "zh": "我们来自中国，第一次来夏威夷——这里太美了！", "tip": "first time 第一次；夸一句很受欢迎。", "vocab": [{ "w": "first time", "zh": "第一次" }] },
+        { "id": "smalltalk-5", "speaker": "local", "en": "Mahalo! Enjoy your stay and have a great trip.", "zh": "谢谢！玩得开心，旅途愉快。", "tip": "Mahalo 夏威夷语“谢谢”，当地常用。", "vocab": [{ "w": "Mahalo", "zh": "谢谢(夏威夷语)" }] },
+        { "id": "smalltalk-6", "speaker": "you", "en": "Thank you so much. Have a nice day!", "zh": "非常感谢，祝你今天愉快！", "tip": "万能友好收尾。", "vocab": [{ "w": "have a nice day", "zh": "祝你愉快" }] }
+      ]
+    },
+    {
+      "id": "beach",
+      "icon": "🏖️",
+      "title": "海滩 / 租沙滩椅",
+      "subtitle": "At the Beach",
+      "category": "活动",
+      "intro": "海滩租伞、租椅、问安全。带长辈注意遮阳、问救生员哪片水域安全、留意旗帜警示。",
+      "lines": [
+        { "id": "beach-1", "speaker": "you", "en": "How much to rent two beach chairs and an umbrella?", "zh": "租两把沙滩椅和一把遮阳伞多少钱？", "tip": "beach chair 沙滩椅；umbrella 遮阳伞。", "vocab": [{ "w": "beach chair", "zh": "沙滩椅" }, { "w": "umbrella", "zh": "遮阳伞" }] },
+        { "id": "beach-2", "speaker": "staff", "en": "It's twenty dollars for the day. Do you need towels too?", "zh": "全天二十美元。还需要毛巾吗？", "tip": "for the day 全天；towel 毛巾。", "vocab": [{ "w": "for the day", "zh": "全天" }, { "w": "towels", "zh": "毛巾" }] },
+        { "id": "beach-3", "speaker": "you", "en": "Is it safe to swim here? My parents are elderly.", "zh": "这里游泳安全吗？我父母年纪大了。", "tip": "safe to swim 适合游泳吗。", "vocab": [{ "w": "safe to swim", "zh": "适合游泳" }] },
+        { "id": "beach-4", "speaker": "staff", "en": "The waves can be strong. Stay where the lifeguard can see you.", "zh": "浪可能很大，待在救生员看得到的地方。", "tip": "waves 海浪；lifeguard 救生员。", "vocab": [{ "w": "waves", "zh": "海浪" }, { "w": "lifeguard", "zh": "救生员" }] },
+        { "id": "beach-5", "speaker": "staff", "en": "If you see a red flag, don't go in the water.", "zh": "看到红旗就别下水。", "tip": "red flag 红旗=危险禁泳。", "vocab": [{ "w": "red flag", "zh": "红旗(危险)" }] },
+        { "id": "beach-6", "speaker": "you", "en": "Where can we find some shade for them to rest?", "zh": "哪里有阴凉处能让他们休息？", "tip": "shade 阴凉处；长辈防中暑。", "vocab": [{ "w": "shade", "zh": "阴凉处" }] },
+        { "id": "beach-7", "speaker": "you", "en": "Where are the restrooms and showers?", "zh": "洗手间和冲洗处在哪里？", "tip": "showers 海滩冲脚/冲沙处。", "vocab": [{ "w": "restrooms", "zh": "洗手间" }, { "w": "showers", "zh": "冲洗处" }] }
+      ]
     }
   ],
   "phrasebook": [
