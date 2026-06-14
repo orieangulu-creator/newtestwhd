@@ -413,20 +413,6 @@
     { "id": "pb-9", "en": "Could you speak a little louder, please?", "zh": "能说大声一点吗？" },
     { "id": "pb-10", "en": "One moment, please.", "zh": "请稍等。" }
   ],
-  "emergencyCards": {
-    "intro": "给两位老人各做一张随身卡：走散、你不在或紧急时直接出示给当地人或医护。请把【方括号】里的信息填好，可截图打印随身带。",
-    "template": [
-      { "label": "Hello, I don't speak English.", "zh": "你好，我不会说英语。" },
-      { "label": "My name is: ________", "zh": "我的名字：______（填老人姓名拼音）" },
-      { "label": "I am traveling with my family. Please call:", "zh": "我和家人一起旅行，请拨打：" },
-      { "label": "Family contact (your phone): ________", "zh": "家人联系电话：______（填你的手机号/带国家码 +86 或当地号）" },
-      { "label": "We are staying at: ________", "zh": "我们住在：______（填 Airbnb 地址）" },
-      { "label": "Blood type: ____  Allergies: ____", "zh": "血型：____  过敏：______（如青霉素/海鲜）" },
-      { "label": "Medical conditions: ________", "zh": "慢性病：______（如高血压/糖尿病/心脏病）" },
-      { "label": "Medications I take: ________", "zh": "正在服用的药：______" },
-      { "label": "In an emergency, please call 911.", "zh": "紧急情况请拨打 911。" }
-    ]
-  },
   "checklist": {
     "intro": "出发前逐项勾选，勾选状态会保存在本机。重点是把容易忽略的盲点都办掉。",
     "groups": [

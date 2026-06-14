@@ -43,7 +43,6 @@
     if (r.name === 'drills') return renderDrills();
     if (r.name === 'phrasebook') return renderPhrasebook();
     if (r.name === 'review') return renderReview();
-    if (r.name === 'cards') return renderCards();
     if (r.name === 'checklist') return renderChecklist();
     renderHome();
   }
@@ -129,7 +128,6 @@
   }
 
   var dlgPrefs = { zh: true, tip: true };
-  var recordings = {}; // lineId -> object URL of user's recording (session only)
 
   function renderScenario(id) {
     var s = findScenario(id);
@@ -149,16 +147,12 @@
         '<div class="line-top"><span class="role ' + role + '">' + roleLabel + '</span>' +
         '<div class="line-actions">' +
         '<button class="mini-btn play" title="播放">▶</button>' +
-        '<button class="mini-btn mic" title="跟读录音">🎤</button>' +
         '<button class="mini-btn star ' + (starred ? 'on' : '') + '" title="收藏">' + (starred ? '★' : '☆') + '</button>' +
         '</div></div>' +
         '<div class="line-en">' + highlightKw(l.en, l.vocab) + '</div>' +
         '<div class="line-zh"' + (dlgPrefs.zh ? '' : ' style="display:none"') + '>' + esc(l.zh) + '</div>' +
         (l.tip ? '<div class="line-tip"' + (dlgPrefs.tip ? '' : ' style="display:none"') + '>💡 ' + esc(l.tip) + '</div>' : '') +
         renderVocab(l.vocab) +
-        '<div class="rec-row' + (recordings[l.id] ? '' : ' hidden') + '">' +
-        '<button class="rec-cmp orig">▶ 原音</button>' +
-        '<button class="rec-cmp mine">▶ 我的录音</button></div>' +
         '</div>';
     });
     view.innerHTML = html;
@@ -173,17 +167,12 @@
     };
 
     view.querySelectorAll('.line').forEach(function (node, i) {
-      var lid = lineObjs[i].id;
       node.querySelector('.play').onclick = function () { window.Player.play(lineObjs[i], lineObjs, i); showBar(lineObjs[i]); };
       var star = node.querySelector('.star');
       star.onclick = function () {
         var on = window.Review.toggle(lineObjs[i]);
         star.classList.toggle('on', on); star.textContent = on ? '★' : '☆';
       };
-      var mic = node.querySelector('.mic');
-      mic.onclick = function () { handleMic(mic, lid, lineObjs[i], i, lineObjs); };
-      node.querySelector('.rec-row .orig').onclick = function () { window.Player.play(lineObjs[i], lineObjs, i); showBar(lineObjs[i]); };
-      node.querySelector('.rec-row .mine').onclick = function () { window.Recorder.playUrl(recordings[lid]); };
       node.querySelectorAll('.kw, .chip').forEach(function (k) {
         k.onclick = function (e) {
           e.stopPropagation();
@@ -206,30 +195,6 @@
 
   function slug(w) { return w.toLowerCase().replace(/[^a-z0-9]+/g, '-'); }
   function decorate(l, s) { return { id: l.id, en: l.en, zh: l.zh, scenario: s.title }; }
-
-  // record-and-compare shadowing
-  function handleMic(btn, lid, lineObj, i, lineObjs) {
-    if (!window.Recorder.supported) { alert('此浏览器/环境不支持录音。请用手机 Safari 或 Chrome，并通过 HTTPS 打开。'); return; }
-    if (window.Recorder.isRecording()) {
-      btn.classList.remove('rec'); btn.textContent = '🎤';
-      window.Recorder.stop().then(function (url) {
-        if (url) {
-          recordings[lid] = url;
-          var row = btn.closest('.line').querySelector('.rec-row');
-          if (row) row.classList.remove('hidden');
-          window.Recorder.playUrl(url); // play back immediately
-        }
-      });
-    } else {
-      // play original once, then record so you can shadow right after
-      window.Player.play(lineObj, lineObjs, i); showBar(lineObj);
-      window.Recorder.start().then(function () {
-        btn.classList.add('rec'); btn.textContent = '⏹';
-      }).catch(function () {
-        alert('无法访问麦克风，请在浏览器里允许麦克风权限。');
-      });
-    }
-  }
 
   function renderPhrasebook() {
     headerTitle.textContent = '万能救场句';
@@ -334,22 +299,6 @@
         };
       });
     }
-  }
-
-  // ---------- emergency cards ----------
-  function renderCards() {
-    headerTitle.textContent = '应急沟通卡';
-    var ec = DATA.emergencyCards;
-    var html = '<div class="intro-box">🆘 ' + esc(ec.intro) + '</div>';
-    html += '<div class="ecard">';
-    ec.template.forEach(function (row) {
-      html += '<div class="ec-row"><div class="ec-en">' + esc(row.label) + '</div>' +
-        '<div class="ec-zh">' + esc(row.zh) + '</div></div>';
-    });
-    html += '</div>';
-    html += '<div class="intro-box note-tip">📌 用法：截图本页 → 打印或存进老人手机相册 → 走散/紧急时出示给当地人或拨打 911。' +
-      '建议把方括号信息先填好（姓名拼音、你的手机号、Airbnb地址、血型过敏慢病用药）。</div>';
-    view.innerHTML = html;
   }
 
   // ---------- pre-trip checklist ----------
