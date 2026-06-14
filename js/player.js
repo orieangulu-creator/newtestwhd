@@ -19,6 +19,20 @@
 
   function audioUrl(id) { return 'audio/' + id + '.mp3'; }
 
+  // Which pre-generated MP3s exist (from audio/manifest.json). Until loaded -> null.
+  // If no manifest (no MP3s generated), we go straight to browser speech — more reliable.
+  var audioSet = null;
+  fetch('audio/manifest.json', { cache: 'no-cache' })
+    .then(function (r) { return r.ok ? r.json() : []; })
+    .then(function (list) { audioSet = new Set(list || []); })
+    .catch(function () { audioSet = new Set(); });
+
+  // Warm up speech voices (Chrome loads them lazily)
+  if ('speechSynthesis' in window) {
+    try { window.speechSynthesis.getVoices(); } catch (e) {}
+    window.speechSynthesis.onvoiceschanged = function () {};
+  }
+
   function speak(line) {
     // Browser speech fallback
     if (!('speechSynthesis' in window)) { onEnded(); return; }
@@ -44,7 +58,13 @@
     setPlayIcon(false);
   }
   audio.addEventListener('ended', onEnded);
-  audio.addEventListener('error', function () { if (!state.usingTTS) speak(state.current); });
+  audio.addEventListener('error', function () { if (!state.usingTTS && state.current) fallback(state.current); });
+
+  function fallback(line) {
+    if (state.fellBack) return; // avoid double-speak (error event + play() rejection)
+    state.fellBack = true;
+    speak(line);
+  }
 
   function setPlayIcon(playing) {
     var b = document.getElementById('pbPlay');
@@ -56,18 +76,22 @@
     state.current = line;
     if (queue) { state.queue = queue; state.index = (index == null ? -1 : index); }
     state.usingTTS = false;
+    state.fellBack = false;
     window.speechSynthesis && window.speechSynthesis.cancel();
-
-    // Try MP3 first
-    audio.src = audioUrl(line.id);
-    audio.playbackRate = state.speed;
-    try { audio.preservesPitch = true; } catch (e) {}
-    var p = audio.play();
-    if (p && p.catch) {
-      p.catch(function () { speak(line); });
-    }
     setPlayIcon(true);
     if (state.onChange) state.onChange(line);
+
+    // Use the MP3 only if we know it exists; otherwise speak directly (reliable in Chrome)
+    var hasMp3 = audioSet && audioSet.has(line.id + '.mp3');
+    if (hasMp3) {
+      audio.src = audioUrl(line.id);
+      audio.playbackRate = state.speed;
+      try { audio.preservesPitch = true; } catch (e) {}
+      var p = audio.play();
+      if (p && p.catch) { p.catch(function () { fallback(line); }); }
+    } else {
+      speak(line);
+    }
   }
 
   function toggle() {
