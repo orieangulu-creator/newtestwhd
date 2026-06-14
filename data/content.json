@@ -198,20 +198,46 @@
     {
       "id": "transport",
       "icon": "🚗",
-      "title": "Uber / 出租 / 租车",
-      "subtitle": "Getting Around",
+      "title": "Uber / 出租车",
+      "subtitle": "Rideshare & Taxi",
       "category": "交通",
-      "intro": "落地用 Uber/Lyft 最方便(App叫车)。也可能在机场租车柜台取车。",
+      "intro": "落地用 Uber/Lyft 最方便(App叫车)，也可能坐出租车。上车先核对名字车牌，下车在App里加小费。",
       "lines": [
         { "id": "transport-1", "speaker": "you", "en": "Hi, are you the Uber for Chen?", "zh": "你好，你是给Chen叫的Uber吗？", "tip": "上车前先核对名字和车牌。", "vocab": [{ "w": "Uber for", "zh": "给…叫的Uber" }] },
         { "id": "transport-2", "speaker": "you", "en": "We're going to this address in Waikiki.", "zh": "我们去威基基的这个地址。", "tip": "Waikiki 威基基（著名海滩区）。", "vocab": [{ "w": "address", "zh": "地址" }] },
         { "id": "transport-3", "speaker": "you", "en": "Could you help with the bags? We have three suitcases.", "zh": "能帮忙搬行李吗？我们有三个行李箱。", "tip": "suitcase 行李箱。", "vocab": [{ "w": "suitcases", "zh": "行李箱" }] },
         { "id": "transport-4", "speaker": "driver", "en": "Hop in and buckle up, please.", "zh": "上车吧，请系好安全带。", "tip": "hop in 上车；buckle up 系安全带。", "vocab": [{ "w": "hop in", "zh": "上车" }, { "w": "buckle up", "zh": "系安全带" }] },
-        { "id": "transport-5", "speaker": "you", "en": "I have a reservation under Chen. Here's my license and passport.", "zh": "我有预订，姓Chen，这是我的驾照和护照。", "tip": "租车柜台用；reservation 预订。", "vocab": [{ "w": "reservation", "zh": "预订" }, { "w": "license", "zh": "驾照" }] },
-        { "id": "transport-6", "speaker": "staff", "en": "Would you like to add insurance?", "zh": "需要加保险吗？", "tip": "建议加 basic insurance 基本保险。", "vocab": [{ "w": "insurance", "zh": "保险" }] },
-        { "id": "transport-7", "speaker": "you", "en": "Just the basic insurance, please.", "zh": "只要基本保险就好。", "tip": "basic 基本的。", "vocab": [{ "w": "basic insurance", "zh": "基本保险" }] },
-        { "id": "transport-8", "speaker": "you", "en": "Where do I return the car, and do I need to fill up the gas?", "zh": "在哪还车？需要把油加满吗？", "tip": "fill up the gas 加满油；很多租车要满油还。", "vocab": [{ "w": "return the car", "zh": "还车" }, { "w": "fill up the gas", "zh": "加满油" }] },
-        { "id": "transport-9", "speaker": "you", "en": "Could you drop us at the main entrance?", "zh": "能在正门口放我们下车吗？", "tip": "drop us 让我们下车；main entrance 正门。", "vocab": [{ "w": "drop us", "zh": "放下车" }, { "w": "main entrance", "zh": "正门" }] }
+        { "id": "transport-5", "speaker": "you", "en": "Could you take the fastest route, please?", "zh": "能走最快的路线吗？", "tip": "fastest route 最快路线。", "vocab": [{ "w": "fastest route", "zh": "最快路线" }] },
+        { "id": "transport-6", "speaker": "you", "en": "Could you drop us at the main entrance?", "zh": "能在正门口放我们下车吗？", "tip": "drop us 让我们下车；main entrance 正门。", "vocab": [{ "w": "drop us", "zh": "放下车" }, { "w": "main entrance", "zh": "正门" }] },
+        { "id": "transport-7", "speaker": "you", "en": "Thank you! I'll add the tip in the app.", "zh": "谢谢！我在App里加小费。", "tip": "Uber/Lyft 在 App 里给小费即可。", "vocab": [{ "w": "add the tip", "zh": "加小费" }] }
+      ]
+    },
+    {
+      "id": "rental",
+      "icon": "🚙",
+      "title": "租车 · 保险 · 事故",
+      "subtitle": "Car Rental, Insurance & Accidents",
+      "category": "交通",
+      "intro": "取车要出示证件、选保险。重点：看懂全险/责任险，以及万一出事故、抛锚怎么沟通报警换信息。带两位长辈，安全第一，建议买全险。",
+      "lines": [
+        { "id": "rental-1", "speaker": "you", "en": "I have a reservation under Chen. Here's my driver's license and passport.", "zh": "我有预订，姓Chen。这是我的驾照和护照。", "tip": "中国驾照多数公司认可，但强烈建议同时带国际驾照翻译件(IDP)。", "vocab": [{ "w": "reservation", "zh": "预订" }, { "w": "driver's license", "zh": "驾照" }] },
+        { "id": "rental-2", "speaker": "staff", "en": "May I see an international driving permit and the credit card for the deposit?", "zh": "能看一下国际驾照和用于押金的信用卡吗？", "tip": "deposit 押金，会在卡上预授权一笔。", "vocab": [{ "w": "international driving permit", "zh": "国际驾照(IDP)" }, { "w": "deposit", "zh": "押金" }] },
+        { "id": "rental-3", "speaker": "you", "en": "Here they are. Is the deposit refundable?", "zh": "给你。押金能退吗？", "tip": "refundable 可退还的。", "vocab": [{ "w": "refundable", "zh": "可退还的" }] },
+        { "id": "rental-4", "speaker": "staff", "en": "Would you like full coverage, or just the basic liability insurance?", "zh": "您要全险，还是只要基本的第三方责任险？", "tip": "full coverage 全险；liability 责任险(只赔对方)。", "vocab": [{ "w": "full coverage", "zh": "全险" }, { "w": "liability insurance", "zh": "责任险" }] },
+        { "id": "rental-5", "speaker": "you", "en": "What's the difference? What does full coverage actually cover?", "zh": "有什么区别？全险到底保什么？", "tip": "听不懂就请对方解释。", "vocab": [{ "w": "the difference", "zh": "区别" }, { "w": "cover", "zh": "承保/覆盖" }] },
+        { "id": "rental-6", "speaker": "staff", "en": "Full coverage includes collision and theft, with no deductible.", "zh": "全险含碰撞和盗抢，并且无免赔额。", "tip": "collision 碰撞；deductible 免赔额(越低越省心)。", "vocab": [{ "w": "collision", "zh": "碰撞" }, { "w": "theft", "zh": "盗抢" }, { "w": "deductible", "zh": "免赔额" }] },
+        { "id": "rental-7", "speaker": "you", "en": "I'll take the full coverage. I'd rather be safe.", "zh": "我要全险，求个安心。", "tip": "I'd rather be safe 宁可保险一点。带老人尤其建议全险。", "vocab": [{ "w": "take the full coverage", "zh": "选全险" }, { "w": "I'd rather be safe", "zh": "宁可保险点" }] },
+        { "id": "rental-8", "speaker": "you", "en": "Does the insurance cover other drivers? My family may drive too.", "zh": "保险包含其他驾驶人吗？我家人也可能开。", "tip": "additional driver 附加驾驶人，可能要登记加钱。", "vocab": [{ "w": "additional driver", "zh": "附加驾驶人" }] },
+        { "id": "rental-9", "speaker": "staff", "en": "The tank is full. Please return it full, or there's a refueling charge.", "zh": "油箱是满的，请加满再还，否则收加油费。", "tip": "full tank 满油；很多公司要满油还。", "vocab": [{ "w": "full tank", "zh": "满油" }, { "w": "refueling charge", "zh": "加油费" }] },
+        { "id": "rental-10", "speaker": "you", "en": "Where and when do I return the car? Is there a grace period if I'm late?", "zh": "在哪、几点还车？晚一点有宽限时间吗？", "tip": "grace period 宽限期。", "vocab": [{ "w": "return the car", "zh": "还车" }, { "w": "grace period", "zh": "宽限期" }] },
+        { "id": "rental-11", "speaker": "you", "en": "Hi, I'm renting a car from you. I've just had a minor accident.", "zh": "你好，我租了你们的车，刚发生了一起小事故。", "tip": "出事故先打租车公司电话(合同上有)。minor accident 小事故。", "vocab": [{ "w": "minor accident", "zh": "小事故" }] },
+        { "id": "rental-12", "speaker": "you", "en": "No one is hurt, but the front bumper is damaged.", "zh": "没有人受伤，但前保险杠撞坏了。", "tip": "no one is hurt 没人受伤；先报平安再说损坏。", "vocab": [{ "w": "no one is hurt", "zh": "没人受伤" }, { "w": "bumper", "zh": "保险杠" }, { "w": "damaged", "zh": "损坏" }] },
+        { "id": "rental-13", "speaker": "you", "en": "Are you okay? Let's exchange insurance and contact information.", "zh": "你没事吧？我们交换保险和联系方式吧。", "tip": "对另一方司机说；exchange information 交换信息。", "vocab": [{ "w": "exchange information", "zh": "交换信息" }, { "w": "contact information", "zh": "联系方式" }] },
+        { "id": "rental-14", "speaker": "you", "en": "Could we take photos of both cars and the license plates?", "zh": "我们拍下两辆车和车牌好吗？", "tip": "license plate 车牌；多拍照留证。", "vocab": [{ "w": "license plate", "zh": "车牌" }] },
+        { "id": "rental-15", "speaker": "you", "en": "There's been a car accident. Please send the police, and an ambulance if needed.", "zh": "发生了车祸，请派警察，需要的话再派救护车。", "tip": "拨911。有人受伤或有纠纷一定报警，拿到事故报告好理赔。", "vocab": [{ "w": "car accident", "zh": "车祸" }, { "w": "police", "zh": "警察" }, { "w": "ambulance", "zh": "救护车" }] },
+        { "id": "rental-16", "speaker": "you", "en": "My rental car broke down. Could you send roadside assistance?", "zh": "我的租车抛锚了，能派道路救援吗？", "tip": "broke down 抛锚/坏了；roadside assistance 道路救援。", "vocab": [{ "w": "broke down", "zh": "抛锚" }, { "w": "roadside assistance", "zh": "道路救援" }] },
+        { "id": "rental-17", "speaker": "you", "en": "I have a flat tire. I've pulled over on the shoulder — here's my location.", "zh": "我爆胎了，已经停在路肩——这是我的位置。", "tip": "flat tire 爆胎；shoulder 路肩；报清位置。", "vocab": [{ "w": "flat tire", "zh": "爆胎" }, { "w": "shoulder", "zh": "路肩" }, { "w": "pulled over", "zh": "靠边停车" }] },
+        { "id": "rental-18", "speaker": "staff", "en": "Stay safe and turn on your hazard lights. Help is on the way.", "zh": "注意安全，打开双闪。救援正在路上。", "tip": "hazard lights 双闪警示灯；on the way 在路上。", "vocab": [{ "w": "hazard lights", "zh": "双闪警示灯" }, { "w": "on the way", "zh": "在路上" }] }
       ]
     },
     {

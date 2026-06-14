@@ -1,5 +1,5 @@
 // Service worker: offline support. Precache app shell + content, runtime-cache audio.
-var VERSION = 'hi-v4';
+var VERSION = 'hi-v5';
 var CORE = [
   './', './index.html',
   './css/styles.css',
