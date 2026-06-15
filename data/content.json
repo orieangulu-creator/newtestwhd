@@ -399,6 +399,185 @@
         { "id": "beach-6", "speaker": "you", "en": "Where can we find some shade for them to rest?", "zh": "哪里有阴凉处能让他们休息？", "tip": "shade 阴凉处；长辈防中暑。", "vocab": [{ "w": "shade", "zh": "阴凉处" }] },
         { "id": "beach-7", "speaker": "you", "en": "Where are the restrooms and showers?", "zh": "洗手间和冲洗处在哪里？", "tip": "showers 海滩冲脚/冲沙处。", "vocab": [{ "w": "restrooms", "zh": "洗手间" }, { "w": "showers", "zh": "冲洗处" }] }
       ]
+    },
+    {
+      "id": "casual-chat",
+      "icon": "💬",
+      "title": "和当地人闲聊",
+      "subtitle": "Casual Small Talk",
+      "category": "地道口语",
+      "intro": "比课本随意得多的真实闲聊：大量缩略和连读(gonna/wanna/gotta)，语速快。重点是听懂、能接话。",
+      "lines": [
+        { "id": "casual-chat-1", "speaker": "local", "en": "Hey, howzit? You guys having a good time?", "zh": "嘿，咋样？你们玩得开心吗？", "tip": "howzit = how is it 的口语 = 最近怎样(夏威夷常用)。", "vocab": [{ "w": "howzit", "zh": "最近怎样" }] },
+        { "id": "casual-chat-2", "speaker": "you", "en": "Yeah, it's been awesome! We're loving it here.", "zh": "是啊，超棒！我们超爱这儿。", "tip": "awesome 太棒了(口语高频)；loving it 很喜欢。", "vocab": [{ "w": "awesome", "zh": "太棒了" }] },
+        { "id": "casual-chat-3", "speaker": "local", "en": "Right on. What're you guys up to today?", "zh": "不错。你们今天打算干嘛？", "tip": "Right on 赞/好啊；What're you up to = 你打算干嘛(What are 连读成 What're)。", "vocab": [{ "w": "right on", "zh": "赞/好啊" }, { "w": "up to", "zh": "打算干嘛" }] },
+        { "id": "casual-chat-4", "speaker": "you", "en": "Not much, just gonna hit the beach.", "zh": "没啥，就去趟海滩。", "tip": "gonna = going to；hit the beach = 去海滩(口语)。", "vocab": [{ "w": "gonna", "zh": "going to" }, { "w": "hit the beach", "zh": "去海滩" }] },
+        { "id": "casual-chat-5", "speaker": "local", "en": "Sweet. You gotta try the shrimp truck down the road.", "zh": "赞。你们一定要试试路那头的虾餐车。", "tip": "gotta = got to 一定要；shrimp truck 虾餐车(夏威夷特色)；down the road 路那头。", "vocab": [{ "w": "gotta", "zh": "一定要" }, { "w": "shrimp truck", "zh": "虾餐车" }] },
+        { "id": "casual-chat-6", "speaker": "you", "en": "Oh nice, we'll check it out. Thanks for the tip!", "zh": "哦不错，我们去看看。谢谢推荐！", "tip": "check it out = 去看看；thanks for the tip 谢谢提示/推荐。", "vocab": [{ "w": "check it out", "zh": "去看看" }, { "w": "thanks for the tip", "zh": "谢谢推荐" }] },
+        { "id": "casual-chat-7", "speaker": "local", "en": "For sure. Have fun, brah!", "zh": "没问题。玩得开心，老兄！", "tip": "For sure 当然；brah = bro 兄弟(夏威夷口音)。", "vocab": [{ "w": "for sure", "zh": "当然" }, { "w": "brah", "zh": "兄弟(bro)" }] },
+        { "id": "casual-chat-8", "speaker": "you", "en": "You too! Take it easy.", "zh": "你也是！慢走/回见。", "tip": "Take it easy 放轻松/回头见(随意的告别)。", "vocab": [{ "w": "take it easy", "zh": "放轻松/回见" }] }
+      ]
+    },
+    {
+      "id": "reactions",
+      "icon": "👌",
+      "title": "地道反应与附和",
+      "subtitle": "Quick Natural Responses",
+      "category": "地道口语",
+      "intro": "别人说话时怎么自然地接一句。短、快、地道——听到要懂，自己也能脱口而出。",
+      "lines": [
+        { "id": "reactions-1", "speaker": "you", "en": "Got it.", "zh": "明白了。", "tip": "比 I understand 自然得多。", "vocab": [{ "w": "got it", "zh": "明白了" }] },
+        { "id": "reactions-2", "speaker": "you", "en": "Sounds good.", "zh": "听起来不错/行。", "tip": "答应、同意安排时用。", "vocab": [{ "w": "sounds good", "zh": "行/不错" }] },
+        { "id": "reactions-3", "speaker": "you", "en": "No worries.", "zh": "没事/不客气。", "tip": "别人道歉或道谢都能用，万能。", "vocab": [{ "w": "no worries", "zh": "没事/不客气" }] },
+        { "id": "reactions-4", "speaker": "you", "en": "You bet.", "zh": "当然/不用谢。", "tip": "很美式的“没问题/不客气”。", "vocab": [{ "w": "you bet", "zh": "当然/不客气" }] },
+        { "id": "reactions-5", "speaker": "you", "en": "My bad.", "zh": "我的错，抱歉。", "tip": "轻松地认错。", "vocab": [{ "w": "my bad", "zh": "我的错" }] },
+        { "id": "reactions-6", "speaker": "you", "en": "Hang on a sec.", "zh": "稍等一下。", "tip": "a sec = a second；Hang on 等一下。", "vocab": [{ "w": "hang on", "zh": "等一下" }, { "w": "a sec", "zh": "一会儿" }] },
+        { "id": "reactions-7", "speaker": "you", "en": "For real?", "zh": "真的假的？", "tip": "表惊讶/确认。", "vocab": [{ "w": "for real", "zh": "真的吗" }] },
+        { "id": "reactions-8", "speaker": "you", "en": "That works for me.", "zh": "我没问题/可以。", "tip": "对安排表示同意。", "vocab": [{ "w": "that works", "zh": "可以/行得通" }] },
+        { "id": "reactions-9", "speaker": "you", "en": "I'm good, thanks.", "zh": "我不用了，谢谢。", "tip": "婉拒(别人问要不要)时用——不是“我很好”！", "vocab": [{ "w": "I'm good", "zh": "不用了" }] },
+        { "id": "reactions-10", "speaker": "you", "en": "Awesome, let's do it.", "zh": "太好了，就这么定。", "tip": "let's do it 就这么办。", "vocab": [{ "w": "let's do it", "zh": "就这么办" }] }
+      ]
+    },
+    {
+      "id": "slang",
+      "icon": "🤙",
+      "title": "口头禅 & 夏威夷词",
+      "subtitle": "Slang You'll Hear",
+      "category": "地道口语",
+      "intro": "你会经常听到的口头禅和夏威夷本地词，听懂就好，不必都用。",
+      "lines": [
+        { "id": "slang-1", "speaker": "tip", "en": "What's up? / How's it going? — both just mean 'hi, how are you?'", "zh": "What's up / How's it going 都只是“你好/最近怎样”。", "tip": "回 “Pretty good, you?” 即可。", "vocab": [{ "w": "what's up", "zh": "你好/怎么了" }, { "w": "how's it going", "zh": "最近怎样" }] },
+        { "id": "slang-2", "speaker": "tip", "en": "Gonna = going to. Wanna = want to. Gotta = got to. Lemme = let me. Gimme = give me.", "zh": "连读缩略：gonna/wanna/gotta/lemme/gimme，美国人天天这么说。", "tip": "听力关键：这些连读很糊，多听几遍。", "vocab": [{ "w": "lemme", "zh": "let me" }, { "w": "gimme", "zh": "give me" }] },
+        { "id": "slang-3", "speaker": "tip", "en": "Kinda = kind of (a little). Sorta = sort of. Lotta = a lot of.", "zh": "kinda/sorta = 有点儿；lotta = 很多。", "tip": "例：It's kinda hot. 有点热。", "vocab": [{ "w": "kinda", "zh": "有点儿" }, { "w": "lotta", "zh": "很多" }] },
+        { "id": "slang-4", "speaker": "tip", "en": "Awesome / Sweet / Cool / Nice — they all mean 'great!'", "zh": "awesome/sweet/cool/nice 都是“太好了”。", "tip": "听到任意一个都是在表示赞同/满意。", "vocab": [{ "w": "sweet", "zh": "赞/太好了" }] },
+        { "id": "slang-5", "speaker": "local", "en": "Mahalo for stopping by! Shaka, brah.", "zh": "谢谢光临！比个 shaka，兄弟。", "tip": "Mahalo 谢谢；shaka 是“放轻松”的手势🤙；brah = bro。", "vocab": [{ "w": "Mahalo", "zh": "谢谢(夏威夷语)" }, { "w": "shaka", "zh": "放轻松手势" }] },
+        { "id": "slang-6", "speaker": "local", "en": "The food here is so ono. You gotta try it.", "zh": "这儿的吃的超好吃，一定要试。", "tip": "ono 夏威夷语“好吃”；grindz = 食物。", "vocab": [{ "w": "ono", "zh": "好吃(夏威夷语)" }, { "w": "grindz", "zh": "食物(俚语)" }] },
+        { "id": "slang-7", "speaker": "tip", "en": "Pau = finished / done. You'll hear 'I'm pau' or 'pau hana' (after work).", "zh": "pau = 完成/结束，本地常说 I'm pau；pau hana = 下班后。", "tip": "夏威夷皮钦语，听到不用慌。", "vocab": [{ "w": "pau", "zh": "完成/结束" }] },
+        { "id": "slang-8", "speaker": "you", "en": "Catch you later! / See ya!", "zh": "回头见！", "tip": "随意的“再见”。", "vocab": [{ "w": "catch you later", "zh": "回头见" }, { "w": "see ya", "zh": "再见" }] }
+      ]
+    },
+    {
+      "id": "drivethru",
+      "icon": "🍔",
+      "title": "得来速 / 快餐点单",
+      "subtitle": "Fast Food Drive-Thru",
+      "category": "餐饮",
+      "intro": "得来速隔着对讲机、语速快、口语化，最考验听力。糊一点别慌，按编号点最稳。",
+      "lines": [
+        { "id": "drivethru-1", "speaker": "staff", "en": "Hi, welcome! What can I get for ya?", "zh": "您好，想点什么？", "tip": "for ya = for you；喇叭声音糊是常态。", "vocab": [{ "w": "what can I get for ya", "zh": "想点什么" }] },
+        { "id": "drivethru-2", "speaker": "you", "en": "Can I get a number two combo, please?", "zh": "我要一份2号套餐。", "tip": "combo 套餐；菜单常按编号点最省事。", "vocab": [{ "w": "combo", "zh": "套餐" }] },
+        { "id": "drivethru-3", "speaker": "staff", "en": "You want that meal large or regular?", "zh": "套餐要大份还是普通份？", "tip": "meal 这里指套餐；large/regular 大/普通。", "vocab": [{ "w": "large or regular", "zh": "大份还是普通" }] },
+        { "id": "drivethru-4", "speaker": "you", "en": "Regular's fine. And a Coke, no ice.", "zh": "普通就行，再来杯可乐，去冰。", "tip": "no ice 去冰；regular's = regular is。", "vocab": [{ "w": "no ice", "zh": "去冰" }] },
+        { "id": "drivethru-5", "speaker": "staff", "en": "Anything else for ya today?", "zh": "今天还要别的吗？", "tip": "anything else 还要别的吗。", "vocab": [{ "w": "anything else", "zh": "还要别的吗" }] },
+        { "id": "drivethru-6", "speaker": "you", "en": "That's it, thanks.", "zh": "就这些，谢谢。", "tip": "That's it 就这些(结束点单)。", "vocab": [{ "w": "that's it", "zh": "就这些" }] },
+        { "id": "drivethru-7", "speaker": "staff", "en": "Alright, that'll be nine fifty-two. Pull up to the next window.", "zh": "好的，9.52美元，往前开到下一个窗口。", "tip": "pull up to 把车开到；next window 下一个窗口取餐。", "vocab": [{ "w": "pull up to", "zh": "把车开到" }, { "w": "next window", "zh": "下一窗口" }] },
+        { "id": "drivethru-8", "speaker": "staff", "en": "Here ya go. Have a good one!", "zh": "给你。祝你愉快！", "tip": "Here ya go 给你；Have a good one = 再见/祝好。", "vocab": [{ "w": "here ya go", "zh": "给你" }, { "w": "have a good one", "zh": "祝好/再见" }] }
+      ]
+    },
+    {
+      "id": "hotel",
+      "icon": "🏨",
+      "title": "酒店前台",
+      "subtitle": "Hotel Front Desk",
+      "category": "住宿",
+      "intro": "万一住酒店或中转过夜。入住、要东西、延退、委婉抱怨换房。",
+      "lines": [
+        { "id": "hotel-1", "speaker": "you", "en": "Hi, I have a reservation under Chen, checking in for two nights.", "zh": "你好，我有预订姓Chen，住两晚。", "tip": "checking in 办入住。", "vocab": [{ "w": "reservation", "zh": "预订" }, { "w": "two nights", "zh": "两晚" }] },
+        { "id": "hotel-2", "speaker": "staff", "en": "Can I see your ID and a credit card for incidentals?", "zh": "能看下证件和一张信用卡(押杂费)吗？", "tip": "incidentals 杂费(迷你吧、损坏等),退房没消费会解冻。", "vocab": [{ "w": "incidentals", "zh": "杂费" }] },
+        { "id": "hotel-3", "speaker": "you", "en": "Could we get a room on a lower floor? We have elderly guests.", "zh": "能安排低楼层吗？我们有老人。", "tip": "lower floor 低楼层。", "vocab": [{ "w": "lower floor", "zh": "低楼层" }] },
+        { "id": "hotel-4", "speaker": "staff", "en": "You're all set. Breakfast is from seven to ten in the lobby.", "zh": "都办好了。早餐7到10点在大堂。", "tip": "you're all set 都弄好了；lobby 大堂。", "vocab": [{ "w": "all set", "zh": "都弄好了" }, { "w": "lobby", "zh": "大堂" }] },
+        { "id": "hotel-5", "speaker": "you", "en": "Could we get a couple of extra towels and some bottled water?", "zh": "能多给几条毛巾和瓶装水吗？", "tip": "a couple of 几个；extra 额外。", "vocab": [{ "w": "extra towels", "zh": "额外毛巾" }] },
+        { "id": "hotel-6", "speaker": "you", "en": "Is late checkout possible? Our flight's in the evening.", "zh": "能晚退房吗？我们航班在晚上。", "tip": "late checkout 延迟退房。", "vocab": [{ "w": "late checkout", "zh": "延迟退房" }] },
+        { "id": "hotel-7", "speaker": "you", "en": "The AC isn't working and the room's a bit noisy. Could we switch rooms?", "zh": "空调坏了、房间有点吵，能换房吗？", "tip": "委婉抱怨；switch rooms 换房。", "vocab": [{ "w": "isn't working", "zh": "坏了" }, { "w": "switch rooms", "zh": "换房" }] },
+        { "id": "hotel-8", "speaker": "staff", "en": "So sorry about that. I'll move you to another room right away.", "zh": "非常抱歉，我马上给您换房。", "tip": "right away 马上。", "vocab": [{ "w": "right away", "zh": "马上" }] }
+      ]
+    },
+    {
+      "id": "tickets",
+      "icon": "🎟️",
+      "title": "买门票 / 景点",
+      "subtitle": "Tickets & Attractions",
+      "category": "活动",
+      "intro": "Diamond Head、珍珠港等要门票或预约。问价、老人票、最后入场、无障碍。",
+      "lines": [
+        { "id": "tickets-1", "speaker": "you", "en": "Two adults and one senior, please.", "zh": "两张成人、一张老人票，谢谢。", "tip": "senior 老人(常有优惠)。", "vocab": [{ "w": "senior", "zh": "老人票" }] },
+        { "id": "tickets-2", "speaker": "staff", "en": "Do you have a reservation, or are you walking in?", "zh": "你们有预约，还是现场买？", "tip": "walking in 现场到场(没预约)。", "vocab": [{ "w": "walking in", "zh": "现场进入" }] },
+        { "id": "tickets-3", "speaker": "you", "en": "Is there a senior discount?", "zh": "有老人优惠吗？", "tip": "senior discount 老人折扣。", "vocab": [{ "w": "senior discount", "zh": "老人折扣" }] },
+        { "id": "tickets-4", "speaker": "you", "en": "What time do you close, and when's the last entry?", "zh": "几点关门？最后入场几点？", "tip": "last entry 最后入场时间。", "vocab": [{ "w": "last entry", "zh": "最后入场" }] },
+        { "id": "tickets-5", "speaker": "staff", "en": "The trail can be steep. Take your time and bring water.", "zh": "步道有点陡，慢慢来，带好水。", "tip": "steep 陡；take your time 慢慢来(对老人很实用)。", "vocab": [{ "w": "trail", "zh": "步道" }, { "w": "steep", "zh": "陡" }, { "w": "take your time", "zh": "慢慢来" }] },
+        { "id": "tickets-6", "speaker": "you", "en": "Is it wheelchair accessible, or is there an easier path?", "zh": "有无障碍通道吗，或更好走的路？", "tip": "wheelchair accessible 无障碍。", "vocab": [{ "w": "wheelchair accessible", "zh": "无障碍" }] },
+        { "id": "tickets-7", "speaker": "you", "en": "Where do we catch the shuttle back?", "zh": "我们在哪坐返程接驳车？", "tip": "catch the shuttle 坐接驳车。", "vocab": [{ "w": "catch the shuttle", "zh": "坐接驳车" }] }
+      ]
+    },
+    {
+      "id": "tour",
+      "icon": "🚐",
+      "title": "跟团一日游",
+      "subtitle": "On a Day Tour",
+      "category": "活动",
+      "intro": "跟团听导游讲解、集合时间、上下车点。导游语速快、爱开玩笑，抓住时间和地点关键词。",
+      "lines": [
+        { "id": "tour-1", "speaker": "guide", "en": "Alright folks, hop on! We'll be making a few stops today.", "zh": "各位上车！我们今天会停几个点。", "tip": "folks 各位；hop on 上车；stops 停靠点。", "vocab": [{ "w": "folks", "zh": "各位" }, { "w": "hop on", "zh": "上车" }] },
+        { "id": "tour-2", "speaker": "guide", "en": "We'll be back here in about forty-five minutes, so don't wander too far.", "zh": "我们大约45分钟后回到这，别走太远。", "tip": "don't wander too far 别走远;抓住“45 minutes”。", "vocab": [{ "w": "wander too far", "zh": "走太远" }] },
+        { "id": "tour-3", "speaker": "you", "en": "What time do we need to be back at the bus?", "zh": "我们几点要回到车上？", "tip": "be back 回到。", "vocab": [{ "w": "be back", "zh": "回来" }] },
+        { "id": "tour-4", "speaker": "guide", "en": "Restrooms are to your left. We leave at noon sharp.", "zh": "洗手间在你们左边。中午12点准时出发。", "tip": "sharp 准时(noon sharp 正午整)。", "vocab": [{ "w": "to your left", "zh": "在你左边" }, { "w": "sharp", "zh": "准时" }] },
+        { "id": "tour-5", "speaker": "guide", "en": "If you look to your right, you'll see the famous lookout.", "zh": "看你们右边，就是著名的观景台。", "tip": "lookout 观景台。", "vocab": [{ "w": "lookout", "zh": "观景台" }] },
+        { "id": "tour-6", "speaker": "you", "en": "Could you take a group photo for us?", "zh": "能帮我们拍张合照吗？", "tip": "group photo 合照。", "vocab": [{ "w": "group photo", "zh": "合照" }] },
+        { "id": "tour-7", "speaker": "you", "en": "We might be a few minutes late — is that okay?", "zh": "我们可能晚几分钟，没关系吧？", "tip": "a few minutes late 晚几分钟。", "vocab": [{ "w": "a few minutes late", "zh": "晚几分钟" }] },
+        { "id": "tour-8", "speaker": "guide", "en": "No worries, just text me if you're running behind.", "zh": "没事，要是来不及就发短信给我。", "tip": "running behind 落后/快迟到了。", "vocab": [{ "w": "running behind", "zh": "快迟到" }, { "w": "text me", "zh": "给我发短信" }] }
+      ]
+    },
+    {
+      "id": "gas",
+      "icon": "⛽",
+      "title": "加油站",
+      "subtitle": "At the Gas Station",
+      "category": "交通",
+      "intro": "美国多自助加油，常要先付或刷卡，外国卡可能要邮编。听懂“先付/油枪”。",
+      "lines": [
+        { "id": "gas-1", "speaker": "you", "en": "How does this work — do I pay first or after?", "zh": "这个怎么用——先付还是后付？", "tip": "pay first/after 先付/后付。", "vocab": [{ "w": "pay first", "zh": "先付" }] },
+        { "id": "gas-2", "speaker": "staff", "en": "Pay inside first, or pay at the pump with a card.", "zh": "进店先付，或在油枪上刷卡。", "tip": "at the pump 在油枪处。", "vocab": [{ "w": "pay inside", "zh": "进店付款" }, { "w": "at the pump", "zh": "在油枪" }] },
+        { "id": "gas-3", "speaker": "you", "en": "Can I get forty dollars on pump three?", "zh": "三号油枪加40美元。", "tip": "on pump three 三号枪。", "vocab": [{ "w": "pump three", "zh": "三号油枪" }] },
+        { "id": "gas-4", "speaker": "staff", "en": "It might ask for your ZIP code. Just hit cancel if it does.", "zh": "可能会要邮编，跳出来就按取消。", "tip": "ZIP code 邮编(外国卡常没有，按 cancel 跳过)。", "vocab": [{ "w": "ZIP code", "zh": "邮编" }, { "w": "hit cancel", "zh": "按取消" }] },
+        { "id": "gas-5", "speaker": "you", "en": "Which one is regular unleaded?", "zh": "哪个是普通无铅汽油？", "tip": "regular unleaded 普通无铅(最常用那种)。", "vocab": [{ "w": "regular unleaded", "zh": "普通无铅" }] },
+        { "id": "gas-6", "speaker": "you", "en": "The pump isn't taking my card. Could you start it from inside?", "zh": "油枪刷不了我的卡，能从店里帮我启动吗？", "tip": "isn't taking my card 不读卡。", "vocab": [{ "w": "isn't taking my card", "zh": "不读卡" }] }
+      ]
+    },
+    {
+      "id": "parking",
+      "icon": "🅿️",
+      "title": "停车",
+      "subtitle": "Parking",
+      "category": "交通",
+      "intro": "路边咪表、停车场、商家盖章抵扣(validate)。注意很多路边晚间免费。",
+      "lines": [
+        { "id": "parking-1", "speaker": "you", "en": "How much is parking per hour?", "zh": "停车每小时多少钱？", "tip": "per hour 每小时。", "vocab": [{ "w": "per hour", "zh": "每小时" }] },
+        { "id": "parking-2", "speaker": "staff", "en": "It's three dollars an hour, or twenty for the whole day.", "zh": "每小时3美元，全天20美元。", "tip": "the whole day 全天。", "vocab": [{ "w": "whole day", "zh": "全天" }] },
+        { "id": "parking-3", "speaker": "you", "en": "Do you validate parking if I eat here?", "zh": "在这吃饭能盖章抵停车费吗？", "tip": "validate parking 停车盖章抵扣(美国餐厅/商场常见)。", "vocab": [{ "w": "validate parking", "zh": "盖章抵停车费" }] },
+        { "id": "parking-4", "speaker": "you", "en": "How do I pay the meter? Does it take coins or card?", "zh": "咪表怎么付？收硬币还是卡？", "tip": "meter 路边咪表。", "vocab": [{ "w": "meter", "zh": "咪表" }] },
+        { "id": "parking-5", "speaker": "staff", "en": "You can pay with the app, or just tap your card on the meter.", "zh": "可以用App付，或直接用卡在咪表上拍一下。", "tip": "tap your card 拍卡(感应)。", "vocab": [{ "w": "tap your card", "zh": "拍卡" }] },
+        { "id": "parking-6", "speaker": "you", "en": "Is it free after six p.m.?", "zh": "晚上6点后免费吗？", "tip": "很多路边晚间免费。", "vocab": [{ "w": "free after", "zh": "之后免费" }] },
+        { "id": "parking-7", "speaker": "you", "en": "Where's the nearest parking garage?", "zh": "最近的停车楼在哪？", "tip": "parking garage 室内停车楼。", "vocab": [{ "w": "parking garage", "zh": "停车楼" }] }
+      ]
+    },
+    {
+      "id": "clinic",
+      "icon": "🩺",
+      "title": "诊所 / 看医生",
+      "subtitle": "At the Clinic",
+      "category": "应急",
+      "intro": "比药店更进一步：挂号、描述症状起病时间、既往病史、复诊和保险收据。长辈刚需。",
+      "lines": [
+        { "id": "clinic-1", "speaker": "you", "en": "My mother isn't feeling well. Can she see a doctor?", "zh": "我母亲不舒服，能看医生吗？", "tip": "isn't feeling well 不舒服；see a doctor 看医生。", "vocab": [{ "w": "isn't feeling well", "zh": "不舒服" }, { "w": "see a doctor", "zh": "看医生" }] },
+        { "id": "clinic-2", "speaker": "staff", "en": "Do you have an appointment, or is this a walk-in?", "zh": "你们有预约，还是直接来的？", "tip": "walk-in 不预约直接来。", "vocab": [{ "w": "appointment", "zh": "预约" }, { "w": "walk-in", "zh": "不预约直接来" }] },
+        { "id": "clinic-3", "speaker": "staff", "en": "Please fill out this form and have a seat.", "zh": "请填这张表，先坐一下。", "tip": "fill out 填写；have a seat 请坐。", "vocab": [{ "w": "fill out", "zh": "填写" }, { "w": "have a seat", "zh": "请坐" }] },
+        { "id": "clinic-4", "speaker": "you", "en": "She's had a fever and a bad cough since yesterday.", "zh": "她从昨天开始发烧、咳得厉害。", "tip": "since yesterday 从昨天起；说清起病时间。", "vocab": [{ "w": "fever", "zh": "发烧" }, { "w": "bad cough", "zh": "咳得厉害" }, { "w": "since yesterday", "zh": "从昨天起" }] },
+        { "id": "clinic-5", "speaker": "you", "en": "She has high blood pressure and takes medication for it.", "zh": "她有高血压并在服药。", "tip": "takes medication 在服药。", "vocab": [{ "w": "high blood pressure", "zh": "高血压" }] },
+        { "id": "clinic-6", "speaker": "you", "en": "She's allergic to penicillin.", "zh": "她对青霉素过敏。", "tip": "务必主动说过敏。", "vocab": [{ "w": "allergic to", "zh": "对…过敏" }] },
+        { "id": "clinic-7", "speaker": "doctor", "en": "I'll prescribe some medicine. Take it twice a day after meals.", "zh": "我开点药，一天两次饭后服。", "tip": "prescribe 开药；twice a day after meals 一天两次饭后。", "vocab": [{ "w": "prescribe", "zh": "开药" }, { "w": "twice a day", "zh": "一天两次" }] },
+        { "id": "clinic-8", "speaker": "you", "en": "Do we need to come back for a follow-up?", "zh": "需要回来复诊吗？", "tip": "follow-up 复诊。", "vocab": [{ "w": "follow-up", "zh": "复诊" }] },
+        { "id": "clinic-9", "speaker": "you", "en": "Could I get a receipt for my travel insurance?", "zh": "能给张收据用于我的旅行保险吗？", "tip": "留收据回国理赔。", "vocab": [{ "w": "receipt", "zh": "收据" }, { "w": "travel insurance", "zh": "旅行保险" }] }
+      ]
     }
   ],
   "phrasebook": [
@@ -411,7 +590,15 @@
     { "id": "pb-7", "en": "We need wheelchair assistance, please.", "zh": "我们需要轮椅协助。" },
     { "id": "pb-8", "en": "Is there a Chinese-speaking staff member?", "zh": "有会说中文的工作人员吗？" },
     { "id": "pb-9", "en": "Could you speak a little louder, please?", "zh": "能说大声一点吗？" },
-    { "id": "pb-10", "en": "One moment, please.", "zh": "请稍等。" }
+    { "id": "pb-10", "en": "One moment, please.", "zh": "请稍等。" },
+    { "id": "pb-11", "en": "Wait, what? Could you slow down a bit?", "zh": "等下，啥？能说慢一点吗？（口语，没跟上时用）" },
+    { "id": "pb-12", "en": "Gotcha. / Got it.", "zh": "懂了/明白了。（地道，比 I understand 自然）" },
+    { "id": "pb-13", "en": "No worries, take your time.", "zh": "没事，不急，慢慢来。" },
+    { "id": "pb-14", "en": "It's up to you.", "zh": "你决定吧。" },
+    { "id": "pb-15", "en": "Can you recommend something good?", "zh": "能推荐点好的吗？" },
+    { "id": "pb-16", "en": "How much do I owe you?", "zh": "我该付你多少？（口语版“多少钱”）" },
+    { "id": "pb-17", "en": "Could you keep an eye on my bag for a sec?", "zh": "能帮我看一下包吗？（a sec = 一会儿）" },
+    { "id": "pb-18", "en": "Never mind, it's all good.", "zh": "算了，没事的。（it's all good = 没问题）" }
   ],
   "checklist": {
     "intro": "出发前逐项勾选，勾选状态会保存在本机。重点是把容易忽略的盲点都办掉。",
