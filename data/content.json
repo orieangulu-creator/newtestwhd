@@ -578,6 +578,123 @@
         { "id": "clinic-8", "speaker": "you", "en": "Do we need to come back for a follow-up?", "zh": "需要回来复诊吗？", "tip": "follow-up 复诊。", "vocab": [{ "w": "follow-up", "zh": "复诊" }] },
         { "id": "clinic-9", "speaker": "you", "en": "Could I get a receipt for my travel insurance?", "zh": "能给张收据用于我的旅行保险吗？", "tip": "留收据回国理赔。", "vocab": [{ "w": "receipt", "zh": "收据" }, { "w": "travel insurance", "zh": "旅行保险" }] }
       ]
+    },
+    {
+      "id": "food-truck",
+      "icon": "🍢",
+      "title": "餐车 / 夏威夷小吃",
+      "subtitle": "Food Trucks & Local Eats",
+      "category": "餐饮",
+      "intro": "夏威夷特色路边餐车：plate lunch 盖饭、poke 生鱼、shave ice 刨冰。语速随意又快，很练听力。",
+      "lines": [
+        { "id": "food-truck-1", "speaker": "staff", "en": "Hey! What can I get started for you?", "zh": "嘿！想点什么？", "tip": "get started for you 想点什么(口语)。", "vocab": [{ "w": "what can I get you", "zh": "想点什么" }] },
+        { "id": "food-truck-2", "speaker": "you", "en": "What does the plate lunch come with?", "zh": "盖饭都配什么？", "tip": "plate lunch 夏威夷盖饭；come with 配有。", "vocab": [{ "w": "plate lunch", "zh": "夏威夷盖饭" }, { "w": "come with", "zh": "配有" }] },
+        { "id": "food-truck-3", "speaker": "staff", "en": "Choice of meat, two scoops of rice, and mac salad.", "zh": "选一种肉，两勺饭，加通心粉沙拉。", "tip": "two scoops rice 两勺饭；mac salad 通心粉沙拉(本地标配)。", "vocab": [{ "w": "two scoops", "zh": "两勺" }, { "w": "mac salad", "zh": "通心粉沙拉" }] },
+        { "id": "food-truck-4", "speaker": "you", "en": "I'll take the kalua pork plate. Is it spicy?", "zh": "我要卡卢瓦烤猪肉盖饭。辣吗？", "tip": "kalua pork 夏威夷烟熏烤猪肉。", "vocab": [{ "w": "kalua pork", "zh": "夏威夷烤猪肉" }] },
+        { "id": "food-truck-5", "speaker": "you", "en": "Can I get a poke bowl with shoyu ahi?", "zh": "来个酱油金枪鱼 poke 饭碗。", "tip": "poke 生鱼块；shoyu 酱油；ahi 金枪鱼。", "vocab": [{ "w": "poke bowl", "zh": "生鱼饭碗" }, { "w": "ahi", "zh": "金枪鱼" }] },
+        { "id": "food-truck-6", "speaker": "you", "en": "And one shave ice with mango, please.", "zh": "再来一份芒果刨冰。", "tip": "shave ice 夏威夷刨冰(不是 shaved)。", "vocab": [{ "w": "shave ice", "zh": "刨冰" }] },
+        { "id": "food-truck-7", "speaker": "staff", "en": "You want ice cream or li hing on top?", "zh": "上面要加冰淇淋还是话梅粉？", "tip": "li hing 话梅粉(本地特色配料)。", "vocab": [{ "w": "on top", "zh": "上面加" }] },
+        { "id": "food-truck-8", "speaker": "you", "en": "Just mango is fine, thanks.", "zh": "就芒果就行，谢谢。", "tip": "is fine 就好/就行。", "vocab": [{ "w": "is fine", "zh": "就好" }] }
+      ]
+    },
+    {
+      "id": "thebus",
+      "icon": "🚌",
+      "title": "公交 TheBus",
+      "subtitle": "Riding TheBus (Oahu)",
+      "category": "交通",
+      "intro": "瓦胡岛公交叫 TheBus。上车投币需自备刚好的零钱，下车要拉绳示意。",
+      "lines": [
+        { "id": "thebus-1", "speaker": "you", "en": "Does this bus go to Waikiki?", "zh": "这趟车去威基基吗？", "tip": "上车前先确认方向。", "vocab": [{ "w": "go to", "zh": "去往" }] },
+        { "id": "thebus-2", "speaker": "driver", "en": "Yep, hop on. It's three dollars, exact change.", "zh": "是的，上车吧。三美元，要刚好的零钱。", "tip": "exact change 不找零，必须备好零钱。", "vocab": [{ "w": "hop on", "zh": "上车" }, { "w": "exact change", "zh": "刚好的零钱" }] },
+        { "id": "thebus-3", "speaker": "you", "en": "Do you have a day pass?", "zh": "有一日票吗？", "tip": "day pass 一日通票。", "vocab": [{ "w": "day pass", "zh": "一日票" }] },
+        { "id": "thebus-4", "speaker": "you", "en": "Could you let me know when we're near the zoo?", "zh": "快到动物园时能提醒我吗？", "tip": "不熟路线时很实用。", "vocab": [{ "w": "let me know", "zh": "提醒我" }, { "w": "near", "zh": "靠近" }] },
+        { "id": "thebus-5", "speaker": "driver", "en": "Sure, I'll call it out.", "zh": "行，到了我会喊一声。", "tip": "call it out 报站/喊出来。", "vocab": [{ "w": "call it out", "zh": "报站" }] },
+        { "id": "thebus-6", "speaker": "you", "en": "How do I signal for my stop?", "zh": "我怎么示意要下车？", "tip": "signal for my stop 示意下车。", "vocab": [{ "w": "signal for my stop", "zh": "示意下车" }] },
+        { "id": "thebus-7", "speaker": "driver", "en": "Just pull the cord above the window.", "zh": "拉窗户上方那根绳就行。", "tip": "pull the cord 拉拉绳(下车信号)。", "vocab": [{ "w": "pull the cord", "zh": "拉拉绳" }] }
+      ]
+    },
+    {
+      "id": "atm-bank",
+      "icon": "🏧",
+      "title": "ATM 取现 / 换零钱",
+      "subtitle": "ATM & Cash",
+      "category": "日常",
+      "intro": "取现金、换小面额给小费用、卡被吞或超限怎么说。",
+      "lines": [
+        { "id": "atm-bank-1", "speaker": "you", "en": "Is there an ATM nearby?", "zh": "附近有取款机吗？", "tip": "ATM 取款机。", "vocab": [{ "w": "ATM", "zh": "取款机" }, { "w": "nearby", "zh": "附近" }] },
+        { "id": "atm-bank-2", "speaker": "you", "en": "Could I get some smaller bills for tips?", "zh": "能换些小面额钞票给小费用吗？", "tip": "smaller bills 小面额钞票(备小费很需要)。", "vocab": [{ "w": "smaller bills", "zh": "小面额钞票" }] },
+        { "id": "atm-bank-3", "speaker": "staff", "en": "Sure. How would you like it?", "zh": "当然。你想要什么面额？", "tip": "How would you like it 你要怎么换/什么面额。", "vocab": [{ "w": "how would you like it", "zh": "要什么面额" }] },
+        { "id": "atm-bank-4", "speaker": "you", "en": "Could I get tens and fives, please?", "zh": "麻烦给我十块和五块的。", "tip": "tens and fives 十元和五元钞。", "vocab": [{ "w": "tens and fives", "zh": "十元和五元" }] },
+        { "id": "atm-bank-5", "speaker": "you", "en": "The machine took my card. What should I do?", "zh": "机器把我的卡吞了，我该怎么办？", "tip": "took my card 吞卡。", "vocab": [{ "w": "took my card", "zh": "吞卡" }] },
+        { "id": "atm-bank-6", "speaker": "staff", "en": "There's a daily withdrawal limit on this account.", "zh": "这个账户每天有取现上限。", "tip": "withdrawal limit 取现上限。", "vocab": [{ "w": "withdrawal limit", "zh": "取现上限" }] }
+      ]
+    },
+    {
+      "id": "phone-store",
+      "icon": "📶",
+      "title": "买电话卡 / eSIM",
+      "subtitle": "Getting a SIM / eSIM",
+      "category": "日常",
+      "intro": "落地买流量/电话卡，问套餐、装 eSIM、确认落地即用。",
+      "lines": [
+        { "id": "phone-store-1", "speaker": "you", "en": "I'd like a prepaid SIM with data for two weeks.", "zh": "我想要一张含流量的两周预付卡。", "tip": "prepaid SIM 预付卡；data 流量。", "vocab": [{ "w": "prepaid SIM", "zh": "预付卡" }, { "w": "data", "zh": "流量" }] },
+        { "id": "phone-store-2", "speaker": "staff", "en": "Do you want a physical SIM or an eSIM?", "zh": "你要实体卡还是 eSIM？", "tip": "physical SIM 实体卡。", "vocab": [{ "w": "physical SIM", "zh": "实体卡" }] },
+        { "id": "phone-store-3", "speaker": "you", "en": "An eSIM is fine. How much data do I get?", "zh": "eSIM 就行。有多少流量？", "tip": "how much data 多少流量。", "vocab": [{ "w": "how much data", "zh": "多少流量" }] },
+        { "id": "phone-store-4", "speaker": "staff", "en": "Unlimited data, and it covers calls and texts too.", "zh": "无限流量，也含通话和短信。", "tip": "unlimited 无限；texts 短信。", "vocab": [{ "w": "unlimited", "zh": "无限" }, { "w": "texts", "zh": "短信" }] },
+        { "id": "phone-store-5", "speaker": "you", "en": "Could you help me set it up?", "zh": "能帮我设置一下吗？", "tip": "set it up 设置/激活。", "vocab": [{ "w": "set it up", "zh": "设置" }] },
+        { "id": "phone-store-6", "speaker": "you", "en": "Will it work as soon as I land?", "zh": "我一落地就能用吗？", "tip": "as soon as I land 一落地就。", "vocab": [{ "w": "as soon as I land", "zh": "一落地就" }] }
+      ]
+    },
+    {
+      "id": "laundry",
+      "icon": "🧺",
+      "title": "洗衣",
+      "subtitle": "Laundry",
+      "category": "住宿",
+      "intro": "Airbnb 自带或自助洗衣店。投币机、洗衣液、烘干另收费。",
+      "lines": [
+        { "id": "laundry-1", "speaker": "you", "en": "How do the washing machines work here?", "zh": "这里的洗衣机怎么用？", "tip": "washing machine 洗衣机。", "vocab": [{ "w": "washing machine", "zh": "洗衣机" }] },
+        { "id": "laundry-2", "speaker": "staff", "en": "Put your coins here, add soap, and press start.", "zh": "把硬币投这儿，加洗衣液，按启动。", "tip": "soap 这里指洗衣液；press start 按启动。", "vocab": [{ "w": "coins", "zh": "硬币" }, { "w": "press start", "zh": "按启动" }] },
+        { "id": "laundry-3", "speaker": "you", "en": "Where can I buy detergent?", "zh": "哪里能买洗衣液？", "tip": "detergent 洗衣液(正式词)。", "vocab": [{ "w": "detergent", "zh": "洗衣液" }] },
+        { "id": "laundry-4", "speaker": "you", "en": "How long is one wash cycle?", "zh": "一次洗涤要多久？", "tip": "wash cycle 洗涤周期。", "vocab": [{ "w": "wash cycle", "zh": "洗涤周期" }] },
+        { "id": "laundry-5", "speaker": "you", "en": "Is the dryer extra?", "zh": "烘干另外收费吗？", "tip": "dryer 烘干机；extra 额外收费。", "vocab": [{ "w": "dryer", "zh": "烘干机" }, { "w": "extra", "zh": "额外收费" }] },
+        { "id": "laundry-6", "speaker": "staff", "en": "Yeah, the dryer's a dollar fifty for forty minutes.", "zh": "是的，烘干1.5美元40分钟。", "tip": "a dollar fifty = 1.5美元。", "vocab": [{ "w": "a dollar fifty", "zh": "1.5美元" }] }
+      ]
+    },
+    {
+      "id": "lost-stolen",
+      "icon": "🆘",
+      "title": "丢失 / 被偷 / 报警",
+      "subtitle": "Lost, Stolen & Police",
+      "category": "应急",
+      "intro": "钱包手机丢了或被偷、护照丢失、报警备案。冷静说清丢了什么、何时何地。",
+      "lines": [
+        { "id": "lost-stolen-1", "speaker": "you", "en": "I lost my wallet. / My phone was stolen.", "zh": "我钱包丢了。/ 我手机被偷了。", "tip": "lost 丢失；was stolen 被偷。", "vocab": [{ "w": "lost", "zh": "丢失" }, { "w": "stolen", "zh": "被偷" }] },
+        { "id": "lost-stolen-2", "speaker": "you", "en": "I need to report it to the police.", "zh": "我需要向警方报案。", "tip": "report to the police 报警。", "vocab": [{ "w": "report to the police", "zh": "报警" }] },
+        { "id": "lost-stolen-3", "speaker": "you", "en": "It happened about an hour ago near the beach.", "zh": "大约一小时前在海滩附近发生的。", "tip": "说清时间和地点。", "vocab": [{ "w": "about an hour ago", "zh": "约一小时前" }] },
+        { "id": "lost-stolen-4", "speaker": "staff", "en": "Can you describe what was inside?", "zh": "能描述里面有什么吗？", "tip": "describe 描述。", "vocab": [{ "w": "describe", "zh": "描述" }] },
+        { "id": "lost-stolen-5", "speaker": "you", "en": "My passport is missing. Where's the nearest consulate?", "zh": "我的护照不见了。最近的领事馆在哪？", "tip": "missing 不见了；consulate 领事馆。", "vocab": [{ "w": "missing", "zh": "不见了" }, { "w": "consulate", "zh": "领事馆" }] },
+        { "id": "lost-stolen-6", "speaker": "you", "en": "Could I get a police report for my insurance?", "zh": "能给我一份报警证明用于保险吗？", "tip": "police report 报警证明(理赔需要)。", "vocab": [{ "w": "police report", "zh": "报警证明" }] },
+        { "id": "lost-stolen-7", "speaker": "you", "en": "I need to cancel my credit card right away.", "zh": "我需要马上挂失我的信用卡。", "tip": "cancel my card 挂失/注销卡；right away 立刻。", "vocab": [{ "w": "cancel my card", "zh": "挂失卡" }] }
+      ]
+    },
+    {
+      "id": "phone-reservation",
+      "icon": "☎️",
+      "title": "电话订餐厅",
+      "subtitle": "Booking by Phone",
+      "category": "餐饮",
+      "intro": "打电话订位——没有口型和手势，纯听力最难。重点听清时间、人数、名字。",
+      "lines": [
+        { "id": "phone-reservation-1", "speaker": "staff", "en": "Thanks for calling Aloha Grill. How can I help you?", "zh": "感谢致电 Aloha Grill，有什么能帮您？", "tip": "开场白，先听出店名。", "vocab": [{ "w": "how can I help you", "zh": "有什么能帮您" }] },
+        { "id": "phone-reservation-2", "speaker": "you", "en": "I'd like to make a reservation for three, tonight at seven.", "zh": "我想订今晚7点三人的位子。", "tip": "make a reservation 订位。", "vocab": [{ "w": "make a reservation", "zh": "订位" }] },
+        { "id": "phone-reservation-3", "speaker": "staff", "en": "Seven's fully booked. Would six-thirty or eight work?", "zh": "7点订满了。6点半或8点可以吗？", "tip": "fully booked 订满；注意听替代时间。", "vocab": [{ "w": "fully booked", "zh": "订满" }] },
+        { "id": "phone-reservation-4", "speaker": "you", "en": "Six-thirty works. Could we get a table by the window?", "zh": "6点半可以。能要靠窗的桌子吗？", "tip": "by the window 靠窗。", "vocab": [{ "w": "by the window", "zh": "靠窗" }] },
+        { "id": "phone-reservation-5", "speaker": "staff", "en": "Can I get a name and a phone number?", "zh": "麻烦留个名字和电话？", "tip": "报名字和电话。", "vocab": [{ "w": "a name and a phone number", "zh": "名字和电话" }] },
+        { "id": "phone-reservation-6", "speaker": "you", "en": "It's under Chen — C-H-E-N.", "zh": "用Chen订，C-H-E-N。", "tip": "under 用…名义；把名字拼给对方。", "vocab": [{ "w": "under", "zh": "用…名义" }] },
+        { "id": "phone-reservation-7", "speaker": "staff", "en": "Great, we'll see you at six-thirty. Bye now.", "zh": "好的，6点半见。再见。", "tip": "see you at 到时见；Bye now 随意的再见。", "vocab": [{ "w": "see you at", "zh": "到时见" }] }
+      ]
     }
   ],
   "phrasebook": [
